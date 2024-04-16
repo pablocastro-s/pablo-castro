@@ -1,8 +1,8 @@
 # Replace the text below to customize your site
 site_name: Pablo Castro - UTEC & Fab Lab Barcelona
-site_description: Master in Design for Emergent Futures
+site_description: Especialización en Fabricación Digital e Innovación
 site_author: Pablo Castro
-copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
+copyright: Copyleft 2024 "Pablo Castro" - GNU Free Documentation License
 repo_name: 'Name : Github Repo'
 site_url: https://pablocastro-s.github.io/pablo-castro/
 repo_url: https://pablocastro-s.github.io/pablo-castro/
@@ -25,16 +25,14 @@ nav:
 extra:
   social:
     # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
     - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/"
+      link: "https://linkedin.com/in/pablo-castro-silva"
     - icon: fontawesome/brands/github
-      link: "https://github.com/"
+      link: "https://pablocastro-s.github.io/pablo-castro/"
+    - icon: fontawesome/brands/behance
+      link: "https://www.behance.net/PabloCas"
 
 theme:
   name: material
