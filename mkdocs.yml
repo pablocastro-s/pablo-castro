@@ -42,8 +42,9 @@ theme:
     accent: purple
   font:
     # See available fonts at https://fonts.google.com/
-    text: Be Vietnam
-    code: Cutive Mono
+    text: Inter
+    code: Inter
+
   icon:
     logo: material/memory
   favicon: images/favicon.svg
