@@ -39,7 +39,8 @@ theme:
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: black
-    accent: purple
+    accent: deep orange
+
   font:
     # See available fonts at https://fonts.google.com/
     text: Inter
