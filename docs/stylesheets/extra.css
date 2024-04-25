@@ -5,9 +5,9 @@
     --md-footer-bg-color--dark: white;
     --md-footer-fg-color--lighter:  rgb(32, 32, 32);
     --md-footer-fg-color--light:  rgb(32, 32, 32);
-    --mdc-typography-headline6-font-family: 'Inter', Bold;
-    --mdc-typography-font-family: 'Inter', sans-serif;
-    --md-typeset-a-color: rgb(81, 182, 162);
+    --mdc-typography-headline6-font-family: 'Inter';
+    --mdc-typography-font-family: 'Inter';
+    --md-typeset-a-color: rgb(177, 177, 177);
 
 }
 
