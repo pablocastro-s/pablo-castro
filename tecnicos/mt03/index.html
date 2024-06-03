@@ -331,6 +331,26 @@
     Modelado y parametrización
   </a>
   
+    <nav class="md-nav" aria-label="Modelado y parametrización">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametros-desarrollados" class="md-nav__link">
+    Parametros desarrollados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kerfing" class="md-nav__link">
+    Kerfing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -339,8 +359,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resultados-finales" class="md-nav__link">
-    Resultados finales
+  <a href="#producto-resultante" class="md-nav__link">
+    Producto resultante
   </a>
   
 </li>
@@ -548,6 +568,26 @@
     Modelado y parametrización
   </a>
   
+    <nav class="md-nav" aria-label="Modelado y parametrización">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametros-desarrollados" class="md-nav__link">
+    Parametros desarrollados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kerfing" class="md-nav__link">
+    Kerfing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -556,8 +596,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resultados-finales" class="md-nav__link">
-    Resultados finales
+  <a href="#producto-resultante" class="md-nav__link">
+    Producto resultante
   </a>
   
 </li>
@@ -620,16 +660,49 @@
 A partir de esa idea, se empezaron a explorar distintas ideas a través de bocetos que, una vez definido el camino a seguir, fueron llevadas a un modelo 3d paramétrico.</p>
 <h3 id="modelado-y-parametrizacion">Modelado y parametrización<a class="headerlink" href="#modelado-y-parametrizacion" title="Permanent link">&para;</a></h3>
 <p>Partiendo del material definido por premisa (MDF 3mm) y de aspectos dimensionales considerados para la luminaria —que utilizará una lámpara y portalampara de rosca E27— se comenzaron a definir los primeros parámetros en el modelo 3D de la luminaria. A medida que fue avanzando el diseño del producto, se fueron definiendo otros que permiten que el producto sea en gran parte parametrizable y por ende, fácilmente adaptable, ya sea a materiales de otras dimensiones como a lámparas con distintas características funcionales.</p>
-<p>El modelado fue realizado mayoritariamente el espacio de Fusion destinado a sólidos, sin embargo para el desarrollo de la parte plegable mediante kerfing, se utilizó el espacio de sheet metal, con el fin de poder configurar los cortes que lo conforman. </p>
-<p>(imagen parámetros)
-(capturas programa)
-(video)</p>
-<h2 id="resultados-finales">Resultados finales<a class="headerlink" href="#resultados-finales" title="Permanent link">&para;</a></h2>
+<h4 id="parametros-desarrollados">Parametros desarrollados<a class="headerlink" href="#parametros-desarrollados" title="Permanent link">&para;</a></h4>
+<p><img alt="Parametros del modelo" src="../../images/MT03/Parametros.png" /></p>
+<p>El modelado fue realizado mayoritariamente el espacio de Fusion destinado a sólidos, sin embargo para el desarrollo de la parte plegable mediante kerfing, se utilizó el espacio de sheet metal, con el fin de poder configurar los cortes que lo conforman y luego desplegarlo para las operaciones de mecanizado laser. </p>
+<h4 id="kerfing">Kerfing<a class="headerlink" href="#kerfing" title="Permanent link">&para;</a></h4>
+<h2 id="producto-resultante">Producto resultante<a class="headerlink" href="#producto-resultante" title="Permanent link">&para;</a></h2>
 <p>La luminaria desarrollada está conformada en su exterior por piezas planares encastrables, que configuran un volumen autoportante. En su interior, 5 piezas definen el soporte del portalámparas, que oficia también de refuerzo estructural.
 El dispositivo fue concebido de forma tal que permite incorporar un elemento de difusión de la iluminación a modo de «pantalla», que puede ser realizado en papel u otro material laminar translúcido que puede ser incorporado con adhesivos. Su corte puede realizarse de forma manual o láser, aunque por las limitantes de la actividad no se presenta en los archivos finales para descargar.</p>
 <h2 id="desarrollo-y-preparacion-de-archivos-de-corte-laser">Desarrollo y preparación de archivos de corte láser<a class="headerlink" href="#desarrollo-y-preparacion-de-archivos-de-corte-laser" title="Permanent link">&para;</a></h2>
 <p>Una vez desarrollado el modelo, se dispuso de sus piezas en un plano para luego proyectar sus contornos en un sketch que pueda ser exportado en .dxf.
-El archivo obtenido se ordena y emprolija en un programa de edición vectorial (Illustrator) para poder unir segmentos de líneas en segmentos continuos o compound paths, así como realizar un primer ordenamiento de capas según las operaciones a realizar.</p>
+<img alt="Piezas dispuestas en plano para obtener el archivo .dxf" src="../../images/MT03/Piezas%20dispuestas%20para%20obtener%20dxf.png" /></p>
+<p>El archivo obtenido se ordena y emprolija en un programa de edición vectorial (Illustrator) para poder unir segmentos de líneas en segmentos continuos o compound paths, así como realizar un primer ordenamiento de capas según las operaciones a realizar. Este procedimiento tiene como objetivo simplificar el proceso de configuración del G-Code en RD Works.
+<img alt="Piezas organizadas en AI" src="../../images/MT03/Piezas%20en%20Illustrator%20organizadas.png" /></p>
+<p>Una vez en RD Works se le asigna a cada capa un tipo de operación, y por ende la velocidad y potencia que tendrá en el G-Code resultante, que ejecutará la máquina de corte láser. Asimismo se define el orden en que se ejecutará; esto es muy importante ya que si una pieza recibiera una operación de corte deja de estar fijada, por lo que un posterior grabado o corte podría no resultar de la precisión pretendida.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Operación</th>
+<th style="text-align: center;">Potencia</th>
+<th style="text-align: center;">Velocidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Corte</td>
+<td style="text-align: center;">11.0%</td>
+<td style="text-align: center;">300 m/s</td>
+</tr>
+<tr>
+<td style="text-align: left;">Grabado</td>
+<td style="text-align: center;">12.0%</td>
+<td style="text-align: center;">300 m/s</td>
+</tr>
+<tr>
+<td style="text-align: left;">Scan</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">90.0 m/s</td>
+</tr>
+</tbody>
+</table>
+<p>Inicialmente se optó por realizar tres operaciones, organizadas en tres capas (engrave, scan y cut). Sin embargo, luego de revisar y simular en RD Works el procedimiento se observó que ciertas piezas que quedaban diagramadas como «islas» bajo la operación de corte eran realizadas luego del corte de la pieza donde se alojaban. Por lo tanto, se optó por incluirlas en otra capa (que sería la penúltima, en color celeste) seguida de la del corte de las piezas exteriores (ver en color azul).</p>
+<p><img alt="Piezas configuradas en RD Works" src="../../images/MT03/Piezas%20dispuestas%20en%20RD%20Works.png" /></p>
+<p>A continuación se puede ver una simulación del G-Code realizado:
+<img alt="Simulación G-Code" src="../../images/MT03/Simulacion.gif" /></p>
 <h3 id="descarga">Descarga<a class="headerlink" href="#descarga" title="Permanent link">&para;</a></h3>
 <p><a download="MT03_Luminara_corte_laser.dxf" href="../../archivos%20linkeados/MT03/MT03-Piezas%20corte%20laser.dxf">Archivo .dfx del producto para corte láser</a></p>
 <p><a download="MT03_Luminara_corte_laser_G-code.rd" href="../../archivos%20linkeados/MT03/MT03-Piezas%20corte%20laser.rd">G-code realizado en RD Works v.8</a></p>
@@ -641,7 +714,7 @@ El archivo obtenido se ordena y emprolija en un programa de edición vectorial (
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 2, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 3, 2024</span>
     
   </small>
 </div>
