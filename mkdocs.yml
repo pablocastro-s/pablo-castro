@@ -5,7 +5,7 @@ site_author: Pablo Castro
 copyright: Copyleft 2024 Pablo Castro - GNU Free Documentation License
 repo_name: 'Repositorio de Pablo Castro'
 site_url: https://pablocastro-s.github.io/pablo-castro/
-repo_url: https://pablocastro-s.github.io/pablo-castro/
+repo_url: https://github.com/pablocastro-s
 
 
 nav:
@@ -65,6 +65,7 @@ plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
+  - glightbox
 
 markdown_extensions:
   - extra
