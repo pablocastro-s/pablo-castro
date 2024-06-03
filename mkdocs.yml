@@ -65,7 +65,6 @@ plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
-  - glightbox
 
 markdown_extensions:
   - extra
