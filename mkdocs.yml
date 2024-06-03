@@ -48,7 +48,7 @@ theme:
     code: Inter
 
   icon:
-    logo: docs/archivos linkeados/Logo pablo castro-20x20.svg
+    logo: docs/Logo pablo castro-20x20.svg
   favicon: images/favicon.svg
   features:
     - instant
