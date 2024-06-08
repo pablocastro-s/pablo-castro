@@ -377,6 +377,47 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#modulo-de-fabricacion-presencial-fp01" class="md-nav__link">
+    Módulo de Fabricación Presencial (FP01)
+  </a>
+  
+    <nav class="md-nav" aria-label="Módulo de Fabricación Presencial (FP01)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracion" class="md-nav__link">
+    COnfiguración
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mecanizado" class="md-nav__link">
+    Mecanizado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#piezas-y-armado" class="md-nav__link">
+    Piezas y armado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reflexion-final" class="md-nav__link">
+    Reflexión final
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -608,6 +649,47 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#modulo-de-fabricacion-presencial-fp01" class="md-nav__link">
+    Módulo de Fabricación Presencial (FP01)
+  </a>
+  
+    <nav class="md-nav" aria-label="Módulo de Fabricación Presencial (FP01)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracion" class="md-nav__link">
+    COnfiguración
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mecanizado" class="md-nav__link">
+    Mecanizado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#piezas-y-armado" class="md-nav__link">
+    Piezas y armado
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reflexion-final" class="md-nav__link">
+    Reflexión final
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -666,7 +748,7 @@ Alternativa: luminaria con pantalla de papel incorporada</p>
 <h2 id="desarrollo-y-preparacion-de-archivos-de-corte-laser">Desarrollo y preparación de archivos de corte láser<a class="headerlink" href="#desarrollo-y-preparacion-de-archivos-de-corte-laser" title="Permanent link">&para;</a></h2>
 <p>Una vez desarrollado el modelo, se dispuso de sus piezas en un plano para luego proyectar sus contornos en un sketch que pueda ser exportado en .dxf.
 <img alt="Piezas dispuestas en plano para obtener el archivo .dxf" src="../../images/MT03/Piezas%20dispuestas%20para%20obtener%20dxf.png" /></p>
-<p>El archivo obtenido se ordena y emprolija en un programa de edición vectorial (Illustrator) para poder unir segmentos de líneas en segmentos continuos o compound paths, así como realizar un primer ordenamiento de capas según las operaciones a realizar. Este procedimiento tiene como objetivo simplificar el proceso de configuración del G-Code en RD Works.
+<p>El archivo obtenido se ordena y organiza en un programa de edición vectorial (Illustrator) para poder unir segmentos de líneas en segmentos continuos o compound paths, así como realizar un primer ordenamiento de capas según las operaciones a realizar. Este procedimiento tiene como objetivo simplificar el proceso de configuración del G-Code en RD Works.
 <img alt="Piezas organizadas en AI" src="../../images/MT03/Piezas%20en%20Illustrator%20organizadas.png" /></p>
 <p>Una vez en RD Works se le asigna a cada capa un tipo de operación, y por ende la velocidad y potencia que tendrá en el G-Code resultante, que ejecutará la máquina de corte láser. Asimismo se define el orden en que se ejecutará; esto es muy importante ya que si una pieza recibiera una operación de corte deja de estar fijada, por lo que un posterior grabado o corte podría no resultar de la precisión pretendida.</p>
 <table>
@@ -702,6 +784,70 @@ Alternativa: luminaria con pantalla de papel incorporada</p>
 <h2 id="descarga">Descarga<a class="headerlink" href="#descarga" title="Permanent link">&para;</a></h2>
 <p><a download="MT03_Luminara_corte_laser.dxf" href="../../archivos%20linkeados/MT03/MT03-Piezas%20corte%20laser.dxf">Archivo .dfx del producto para corte láser</a></p>
 <p><a download="MT03_Luminara_corte_laser_G-code.rd" href="../../archivos%20linkeados/MT03/MT03-Piezas%20corte%20laser.rd">G-code realizado en RD Works v.8</a></p>
+<h2 id="modulo-de-fabricacion-presencial-fp01">Módulo de Fabricación Presencial (FP01)<a class="headerlink" href="#modulo-de-fabricacion-presencial-fp01" title="Permanent link">&para;</a></h2>
+<p>En el marco de la instancia de Fabricación Presencial se concurrió al LabA de Durazno para realizar la práctica presencial correspondiente al módulo de corte láser controlado por computadora y diseño paramétrico.</p>
+<h3 id="configuracion">COnfiguración<a class="headerlink" href="#configuracion" title="Permanent link">&para;</a></h3>
+<p>Una vez en el LabA se procedió, en primera instancia, a revisar el G-Code anteriormente desarrollado. Ahí se modificaron ciertos valores de potencia y velocidad que se adecúan mejor a la máquina de corte láser a utilizar en el laboratorio. También se optó por disponer de forma vertical las piezas a mecanizar, ya que permitía un mejor aprovechamiento de la placa de MDF.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Operación</th>
+<th style="text-align: center;">Potencia</th>
+<th style="text-align: center;">Velocidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Corte</td>
+<td style="text-align: center;">60%</td>
+<td style="text-align: center;">20 m/s</td>
+</tr>
+<tr>
+<td style="text-align: left;">Grabado</td>
+<td style="text-align: center;">11%</td>
+<td style="text-align: center;">60 m/s</td>
+</tr>
+<tr>
+<td style="text-align: left;">Scan</td>
+<td style="text-align: center;">11%</td>
+<td style="text-align: center;">100 m/s</td>
+</tr>
+</tbody>
+</table>
+<p>Ajuste de piezas
+<img alt="Ajuste piezas" src="../../images/MT03/00%20Ajuste%20vertical%20piezas.png" /></p>
+<p>Una vez configurado el archivo se procedió a copiarlo en la máquina de corte láser. Posteriormente se procedió a setear la máquina en relación a su origen y al material a utilizar.</p>
+<p>Maquina de corte laser utilizada
+<img alt="Maquina" src="../../images/MT03/01%20-%20maquina.jpg" /></p>
+<p>Visualización de operaciones a realizar en display de la máquina
+<img alt="Visualización de operaciones a realizar en display de la máquina" src="../../images/MT03/02%20-%20Visor%20maquina_.jpg" /></p>
+<h3 id="mecanizado">Mecanizado<a class="headerlink" href="#mecanizado" title="Permanent link">&para;</a></h3>
+<p>Grabado raster  </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gs8RbUTMLIE?si=8zy6WEzR9y56Yjei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Grabado laser </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2EA0orR-U4s?si=_5ZBBLikO0hgau2q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Corte laser </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gs8RbUTMLIE?si=8zy6WEzR9y56Yjei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gs8RbUTMLIE?si=8zy6WEzR9y56Yjei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3 id="piezas-y-armado">Piezas y armado<a class="headerlink" href="#piezas-y-armado" title="Permanent link">&para;</a></h3>
+<p>Las piezas resultantes fueron ensambladas sin mayor dificultad. Se estimaba que fuera necesario tener que lijar alguna de las piezas para lograr su encastre ya que, a excepción de los slots para las pestañas, no se habían considerado tolerancias. Asimismo, el kerfing desarrollado presentó una gran movilidad, por lo que funcionó a la perfección para los fines del producto.</p>
+<p>Piezas obtenidas
+<img alt="Piezas obtenidas" src="../../images/MT03/04-Piezas.jpg" /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZjTP3lpFKt4?si=UISzBkAVuhb6e8zP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Armado de la base de la luminaria
+<img alt="Armado de la base de la luminaria" src="../../images/MT03/05-Armado%20base.jpg" /> </p>
+<p>Luminaria armada
+<img alt="Luminaria armada" src="../../images/MT03/06-Luminaria%20armada%20-%20a.jpg" />
+<img alt="Luminaria armada" src="../0-Luminaria%20armada%20-%20b.jpg" /></p>
+<h3 id="reflexion-final">Reflexión final<a class="headerlink" href="#reflexion-final" title="Permanent link">&para;</a></h3>
+<p>El proceso recorrido para este ejercicio resultó útil para poder afianzar conocimientos sobre todo el proceso para conceptualizar, desarrollar y llevar a cabo elementos (ya sean productos o experimentos) mediante tecnología de corte láser, incorporando también aspectos de diseño paramétrico. 
+Asimismo, fue realmente interesante poder llevar a cabo la instancia de fabricación digital y utilizar la máquina de corte láser, así como conocer el LabA de Durazno.</p>
+<p>A nivel del producto desarrollado, creo que a futuro sería interesante explorar en el desarrollo de otro tipo de patrones de kerfing, así como experimentar en el corte y grabado de otros materiales, como podría ser en acrílico.</p>
                 
                   
                     
@@ -710,7 +856,7 @@ Alternativa: luminaria con pantalla de papel incorporada</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 3, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 8, 2024</span>
     
   </small>
 </div>
