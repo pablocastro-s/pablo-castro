@@ -12,7 +12,7 @@ void setup() {
 } 
 
 void loop() {
-  digitalWrite(TRIG, LOW);
+  digitalWrite(TRIG, HIGH);
   delay(1);
   digitalWrite(TRIG, LOW);
   DURACION = pulseIn(ECO, HIGH);
