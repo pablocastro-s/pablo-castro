@@ -462,7 +462,7 @@
 <p><img alt="Banner" src="" /></p>
 <h1 id="mt04_1">MT04<a class="headerlink" href="#mt04_1" title="Permanent link">&para;</a></h1>
 <h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
-<p>Para el Módulo Tecnología 04: Introducción a electrónica y programación (Arduino IDE) se propuso una introducción al mundo de la programación y electrónica aplicada en microcontroladores, mediante la plataforma Arduino IDE. </p>
+<p>Para el Módulo Técnico 04: Introducción a electrónica y programación (Arduino IDE) se propuso una introducción al mundo de la programación y electrónica aplicada en microcontroladores, mediante la plataforma Arduino IDE. </p>
 <p>En este contexto, se desarrollan una serie de actividades para poder adentrarme en conceptos básicos de esta tecnología y su aplicación, ya que más allá de conocer acerca del uso de Arduino, hasta el momento no tuve la oportunidad de adentrarme en esta tecnología.</p>
 <p>Para la realización de las actividades del MT04 seguí una <i>metodología</i>, que se basó en:
 - Revisión de materiales en la plataforma EDU
@@ -471,28 +471,78 @@
 - Replicado de tutorial en Tinkercad para simular el prototipado mediante Arduino
 - Replicado mediante la utilización de componentes</p>
 <h2 id="actividad-0-testeo-en-tinkercad-de-sensor-ultrasonico">Actividad 0: Testeo en Tinkercad de sensor ultrasónico<a class="headerlink" href="#actividad-0-testeo-en-tinkercad-de-sensor-ultrasonico" title="Permanent link">&para;</a></h2>
-<p>Siguiendo el instructivo planteado por BitwiseAr (<a href="https://www.youtube.com/watch?v=mlw3APOUt8U">https://www.youtube.com/watch?v=mlw3APOUt8U</a>) se arma un circuito con un sensor ultrasónico HC-SR04 para medir distancia y encender un LED, para así cuando se detecte un elemento dentro de determinado rango.</p>
-<p>(foto del sensor)</p>
+<p>Siguiendo el instructivo planteado por <a href="https://www.youtube.com/watch?v=mlw3APOUt8U">BitwiseAr</a> se arma un circuito con un sensor ultrasónico HC-SR04 para medir distancia y encender un LED, para así cuando se detecte un elemento dentro de determinado rango.</p>
 <p>En este caso, se armó el circuito a través de Thinkercad y posteriormente se generó el código en Arduino IDE. Si bien podría haber copiado el código brindado por quien desarrolló originalmente el circuito, me pareció adecuado escribirlo a medida que era explicado en el video, ya que de esta forma podría comprender un poco más la lógica detrás de este y su vinculación con la tecnología Arduino.</p>
+<p><img alt="Captura del circuito prototipado en Tinkercad" src="../../images/MT04/Esquema-Actividad%200.png" />
+Captura del circuito prototipado en Tinkercad</p>
+<p><img alt="Captura del código desarrollado" src="../../images/MT04/Codigo-Actividad%200.png" />
+Captura del código desarrollado</p>
 <h3 id="resultados">Resultados<a class="headerlink" href="#resultados" title="Permanent link">&para;</a></h3>
 <p>En primer lugar, pude entender más sobre la vinculación de la placa de arduino, con el tipo de programación que requiere y cómo interactúan. Asimismo, pude solucionar una serie de errores de sintaxis al contrastar el código escrito por mi con aquel provisto con el tutorial,esto sirvió para poder reforzar este tipo de programación.</p>
 <p>Luego de escribir el código, lo llevé al <i>prototipo</i> en Thinkercad para poder simularlo en esa plataforma y comprobar que efectivamente funciona.</p>
+<p><a download="MT04-Actividad 00-Sensor_utrasonico-Thinkercad.ino" href="../../archivos%20linkeados/MT04/MT04-Actividad%2000-Sensor_utrasonico-Thinkercad/MT04-Actividad%2000-Sensor_utrasonico-Thinkercad.ino">Descargar archivo .ino - MT04-Actividad 00-Sensor_utrasonico-Thinkercad</a></p>
 <h2 id="actividad-1">Actividad 1<a class="headerlink" href="#actividad-1" title="Permanent link">&para;</a></h2>
-<p>Para esta actividad, se plantea el desarrollo de un circuito simple que permita encender y apagar de forma automática 3 LEDs, tomando como referencia el tutorial propuesto por DroneHow (<a href="https://www.youtube.com/watch?v=e1FVSpkw6q4">https://www.youtube.com/watch?v=e1FVSpkw6q4</a>).</p>
+<p>Para esta actividad, se plantea el desarrollo de un circuito simple que permita encender y apagar de forma automática 3 LEDs, tomando como referencia el tutorial propuesto por <a href="https://www.youtube.com/watch?v=e1FVSpkw6q4">DroneHow</a>.</p>
 <p>Para esto, se comenzó por el armado del circuito en Thinkercad y posteriormente escritura del código en Arduino IDE, que posteriormente sería testeado en Thinkercad para verificar su funcionamiento, que posteriormente se replicó con los elementos del kit de Arduino provisto. </p>
+<p><img alt="Actividad 01 - Esquema del circuito" src="../../images/MT04/Actividad01-Esquema.png" />
+Actividad 01 - Esquema del circuito</p>
+<p><img alt="Actividad 01 - Testeo del circuito" src="../../images/MT04/Actividad01-Esquema%20-%20gif.gif" />
+Actividad 01 - Testeo del circuito</p>
+<p>La escritura del código era sencilla y la realización de esta acividad me permitió comprender con aun más la relación entre las variables que uno define y lo que hace cada pin, realizado en el setup. Al momento de querer transferir el código a la placa de Arduino se detectaron dos errores causados por sintaxis; en ambos casos se debía a la falta del caracter <b>;</b>.</p>
+<p><img alt="Error 1" src="../../images/MT04/Actividad%2001%20-%20error%201.png" />
+Primer error detectado</p>
+<p><img alt="Error 2" src="../../images/MT04/Actividad%2001%20-%20error%202.png" />
+Segundo error detectado</p>
 <h3 id="resultados_1">Resultados<a class="headerlink" href="#resultados_1" title="Permanent link">&para;</a></h3>
 <p>Se pudo lograr el armado de un circuito funcional de muy baja complejidad, así como se pudo ajustar parámetros de duración de su encendido a través del código para explorar distintos patrones de duración de los encendidos.</p>
+<p><img alt="Componentes utilizados" src="../../images/MT04/Actividad%2001-a-componentes%20%20.jpg" />
+Componentes utilizados</p>
+<p><img alt="Circuito armado" src="../../images/MT04/Actividad%2001-b-armado.jpg" />
+Circuito armado</p>
+<p><img alt="Detalle del sistema" src="../../images/MT04/Actividad%2001-c-acercamiento%20sistema.jpg" />
+Detalle del sistema</p>
+<p><img alt="Sistema encendido" src="../../images/MT04/Actividad%2001-d-encendido.jpg" />
+Sistema encendido</p>
+<p><img alt="LEDs en funcionamiento" src="../../images/MT04/Actividad%2001-e-encendido2.jpg" />
+LEDs en funcionamiento</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5Wrl_DWqaM?si=PFZOqji-Yw67LVgX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><a download="MT04-Actividad 01-Leds_intermitentes.ino" href="../../archivos%20linkeados/MT04/MT04-Actividad%2001-Leds_intermitentes_v2/MT04-Actividad%2001-Leds_intermitentes_v2.ino">Descargar archivo .ino - MT04-Actividad 01-Leds_intermitentes</a></p>
 <h2 id="actividad-2">Actividad 2<a class="headerlink" href="#actividad-2" title="Permanent link">&para;</a></h2>
-<p>A partir del código escrito en la Actividad 0 me propuse prototipar con los elementos del kit el circuito planteado. Al tenerlo diagramado y poder consultarlo, fue fácilmente replicable en la realidad.
-La carga del código al Arduino no presentó ninguna dificultad, sin embargo la situación era diferente con la captación de datos por parte del sensor, que presentaban una serie de errores.</p>
-<p>En primer lugar, el LED incorporado, que se debe parpadear con un ritmo variable dependiendo de la distancia del objeto que el sensor ultrasónico HC-SR04 detecta, emitía una luz tenue y prácticamente imperceptible. Por otra parte, el <i>serial monitor</i> de Arduino IDE, solamente presentaba valores de 0. Estos elementos dieron a entender que algo andaba mal, pero sin saber si se trataba de algo del código, del armado del circuito o algún componente defectuoso. Asì que para poder dar con el problema, seguì los siguientes pasos:</p>
+<p>A partir del código escrito en la Actividad 0 me propuse prototipar con los elementos del kit el circuito planteado. Al tenerlo diagramado y poder consultarlo, fue fácilmente replicable en la realidad.</p>
+<p><img alt="Código desarrollado en la actividad 0" src="../../images/MT04/Actividad%2002%20-%20codigo.png" />
+Código desarrollado en la actividad 0</p>
+<p><img alt="Armado inicial del sistema" src="../../images/MT04/Actividad%2002-armado%20inicial.jpg" />
+Armado inicial del sistema</p>
+<p>La carga del código al Arduino no presentó ninguna dificultad, sin embargo la situación era diferente con la captación de datos por parte del sensor, que presentaban una serie de errores.</p>
+<p>En primer lugar, el LED incorporado, que se debe parpadear con un ritmo variable dependiendo de la distancia del objeto que el sensor ultrasónico HC-SR04 detecta, emitía una luz tenue y prácticamente imperceptible. Por otra parte, el <i>serial monitor</i> de Arduino IDE, solamente presentaba valores de 0. </p>
+<p><img alt="Enciendido y prueba de funcionamiento 1" src="../../images/MT04/Actividad%2002-encendido%20y%20prueba%20de%20funcionamiento%201.jpg" />
+Enciendido y prueba de funcionamiento 1</p>
+<p><img alt="Enciendido y prueba de funcionamiento 2" src="../../images/MT04/Actividad%2002-encendido%20y%20prueba%20de%20funcionamiento%202.jpg" />
+Enciendido y prueba de funcionamiento 2</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qMEezTK5MOY?si=PJplJr6FlOYdWy-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Video que captura el Serial Monitor captando siempre el valor «0»</p>
+<p>Estos elementos dieron a entender que algo andaba mal, pero sin saber si se trataba de algo del código, del armado del circuito o algún componente defectuoso. Asì que para poder dar con el problema, seguì los siguientes pasos:</p>
 <p>Reemplazar el LED: si bien en el mejor de los casos resolvería uno de los problemas, era algo que valía la pena intentar. Lamentablemente, no se obtuvieron resultados.
 Verificar que los conectores estaban colocados correctamente según el esquema desarrollado en tinkercad y contrastar ambos con el tutorial; asimismo se chequeó que los elementos estuvieran firmemente conectados. Esto tampoco dió solución.
 Googlear directamente mi problema: <i>multicomp hc-sr04 not showing values arduino</i>. Esto arrojó muchos resultados y potenciales soluciones, como probar de cambiar las conexiones en el circuito o hacer ajustes en el código.  Si bien en determinado momento esto pareció dar solución, ya que el led se encendió en una instancia con una notoria intensidad, posteriormente no se pudo replicar.
 Contrastar con el material brindado en el tutorial mencionado en la actividad 0 y en los comentarios. De ahí se tomaron dos medidas que contribuyeron a solucionar el problema, como conectar los elementos del breadboard más cerca del los demás elementos del circuito y (lo que probablemente fue la clave)  hacer un pequeño cambio al código, según plantea el comentario de un usuario de youtube: «en el setup, debes inicializar el TRIG como LOW».</p>
 <h3 id="resultados_2">Resultados<a class="headerlink" href="#resultados_2" title="Permanent link">&para;</a></h3>
 <p>A partir de lo realizado en la actividad 0 y 2 se logró completar el circuito que permite, a través del sensor ultrasónico, medir la distancia a la cual se encuentra un determinado objeto. Esta distancia de proximidad es comunicada tanto por la interfaz provista por el <i>serial monitor</i> de Arduino IDE, como por el LED del circuito, que oficia de indicador al titilar con más o menos frecuencia dependiendo de la cercanía del objeto percibido. </p>
+<p><img alt="Sistema funcionando una vez resuelto el error" src="../../images/MT04/Actividad%2002-funcionando.jpg" />
+Sistema funcionando una vez resuelto el error</p>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/972599092?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MT04 - Actividad 2 - Lectura del sensor - Made with Clipchamp"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<p>Circuito en funcionamiento</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PkuMGuNilck?si=VFNSu3BKBNNrQSdj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Circuito captando valores que se reflejan en el Serial Monitor</p>
 <p>Por otra parte se optó por utilizar un <i>passive buzzer</i> en lugar del circuito LED+resistencia,  solamente con fines de utilizar otro elemento del kit, lo que se pudo hacer sin dificultad alguna.</p>
+<p><img alt="Buzzer incluido en el sistema" src="../../images/MT04/Actividad%2002-%20buzzer.jpg" />
+Buzzer incluido en el sistema</p>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/972599333?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MT04 - Actividad 2 - Lectura buzzer"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<p>Buzzer en funcionamiento</p>
+<p><a download="MT04-Actividad 02-Sensor_utrasonico.ino" href="../../archivos%20linkeados/MT04/MT04_Actividad_02_Sensor_utrasonico/MT04_Actividad_02_Sensor_utrasonico.ino">Descargar archivo .ino - MT04-Actividad 02-Sensor_utrasonico</a></p>
 <h2 id="conclusiones-y-observaciones">Conclusiones y observaciones<a class="headerlink" href="#conclusiones-y-observaciones" title="Permanent link">&para;</a></h2>
 <p>Como resultado de las actividades desarrolladas en el presente módulo pude acercarme al uso de Arduino para prototipado de circuitos y la programación en entornos IDE, de forma inicial.</p>
 <p>Personalmente, me resulta de gran interés esta tecnología y entiendo que ofrece un gran número de potenciales usos y aplicaciones, aunque producto de mi inexperiencia en la temática, no solo no pueda ver y comprender todo lo que ofrecen, sino que claramente no sabría cómo llevarlas a cabo. En este sentido, me entusiasma la idea de seguir profundizando en la tecnología Arduino. </p>
@@ -505,7 +555,7 @@ Contrastar con el material brindado en el tutorial mencionado en la actividad 0 
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 30, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 1, 2024</span>
     
   </small>
 </div>
