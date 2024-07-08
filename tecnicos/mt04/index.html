@@ -659,16 +659,17 @@ Captura del código desarrollado</p>
 <p><a download="MT04-Actividad 00-Sensor_utrasonico-Thinkercad.ino" href="../../archivos%20linkeados/MT04/MT04-Actividad%2000-Sensor_utrasonico-Thinkercad/MT04-Actividad%2000-Sensor_utrasonico-Thinkercad.ino">Descargar archivo .ino - MT04-Actividad 00-Sensor_utrasonico-Thinkercad</a></p>
 <h2 id="actividad-1">Actividad 1<a class="headerlink" href="#actividad-1" title="Permanent link">&para;</a></h2>
 <p>Para esta actividad, se plantea el desarrollo de un circuito simple que permita encender y apagar de forma automática 3 LEDs, tomando como referencia el tutorial propuesto por <a href="https://www.youtube.com/watch?v=e1FVSpkw6q4">DroneHow</a>.</p>
-<p>Para esto, se comenzó por el armado del circuito en Thinkercad y posteriormente escritura del código en Arduino IDE, que posteriormente sería testeado en Thinkercad para verificar su funcionamiento, que posteriormente se replicó con los elementos del kit de Arduino provisto. </p>
+<p>Se comenzó por el armado del circuito en Thinkercad y posteriormente escritura del código en Arduino IDE, que posteriormente sería testeado en Thinkercad para verificar su funcionamiento.</p>
 <p><img alt="Actividad 01 - Esquema del circuito" src="../../images/MT04/Actividad01-Esquema.png" />
 Actividad 01 - Esquema del circuito</p>
 <p><img alt="Actividad 01 - Testeo del circuito" src="../../images/MT04/Actividad01-Esquema%20-%20gif.gif" />
 Actividad 01 - Testeo del circuito</p>
-<p>La escritura del código era sencilla y la realización de esta acividad me permitió comprender con aun más la relación entre las variables que uno define y lo que hace cada pin, realizado en el setup. Al momento de querer transferir el código a la placa de Arduino se detectaron dos errores causados por sintaxis; en ambos casos se debía a la falta del caracter <b>;</b>.</p>
+<p>La escritura del código era sencilla y la realización de esta acividad me permitió comprender con aun más la relación entre las variables que uno define y lo que hace cada pin, realizado en el setup. Al momento de querer transferir el código a la placa de Arduino se detectaron dos errores causados por sintaxis; en ambos casos se debía a la falta del caracter <b>«;»</b>.</p>
 <p><img alt="Error 1" src="../../images/MT04/Actividad%2001%20-%20error%201.png" />
 Primer error detectado</p>
 <p><img alt="Error 2" src="../../images/MT04/Actividad%2001%20-%20error%202.png" />
 Segundo error detectado</p>
+<p>Posteriormente, y ya con el código funcionando correctamente, se replicó el circuito armado en Tinkercad con los elementos del kit de Arduino, para así armar un circuito funcional al que le fue cargado el código anteriormente mencionado. </p>
 <p><img alt="Componentes utilizados" src="../../images/MT04/Actividad%2001-a-componentes%20%20.jpg" />
 Componentes utilizados</p>
 <p><img alt="Circuito armado" src="../../images/MT04/Actividad%2001-b-armado.jpg" />
@@ -707,16 +708,14 @@ Contrastar con el material brindado en el tutorial mencionado en la actividad 0 
 <p>A partir de lo realizado en la actividad 0 y 2 se logró completar el circuito que permite, a través del sensor ultrasónico, medir la distancia a la cual se encuentra un determinado objeto. Esta distancia de proximidad es comunicada tanto por la interfaz provista por el <i>serial monitor</i> de Arduino IDE, como por el LED del circuito, que oficia de indicador al titilar con más o menos frecuencia dependiendo de la cercanía del objeto percibido. </p>
 <p><img alt="Sistema funcionando una vez resuelto el error" src="../../images/MT04/Actividad%2002-funcionando.jpg" />
 Sistema funcionando una vez resuelto el error</p>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/972599092?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MT04 - Actividad 2 - Lectura del sensor - Made with Clipchamp"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0OY9_N1xCl4?si=1ST6WF8rBkSoKSoy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Circuito en funcionamiento</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PkuMGuNilck?si=VFNSu3BKBNNrQSdj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Circuito captando valores que se reflejan en el Serial Monitor</p>
 <p>Por otra parte se optó por probar la incorporación de un <i>passive buzzer</i> en lugar del circuito LED+resistencia,  solamente con fines de utilizar otro elemento del kit, lo que se pudo hacer sin dificultad alguna.</p>
 <p><img alt="Buzzer incluido en el sistema" src="../../images/MT04/Actividad%2002-%20buzzer.jpg" />
 Buzzer incluido en el sistema</p>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/972599333?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MT04 - Actividad 2 - Lectura buzzer"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OxmqFuCpTf4?si=kVCihX--v-zigNoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>Buzzer en funcionamiento</p>
 <p><a download="MT04-Actividad 02-Sensor_utrasonico.ino" href="../../archivos%20linkeados/MT04/MT04_Actividad_02_Sensor_utrasonico/MT04_Actividad_02_Sensor_utrasonico.ino">Descargar archivo .ino - MT04-Actividad 02-Sensor_utrasonico</a></p>
 <h2 id="conclusiones-y-observaciones">Conclusiones y observaciones<a class="headerlink" href="#conclusiones-y-observaciones" title="Permanent link">&para;</a></h2>
@@ -731,7 +730,7 @@ Buzzer incluido en el sistema</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 1, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 8, 2024</span>
     
   </small>
 </div>
