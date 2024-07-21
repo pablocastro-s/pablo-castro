@@ -548,40 +548,42 @@ Pantalla de inicio de IdeaMaker</p>
 Importación del archivo .stl</p>
 <p><img alt="Vista del modelo importado" src="../../images/MT05/5.png" />
 Vista del modelo importado</p>
+<p><img alt="Modelo importado" src="../../images/MT05/Gif1-Home.gif" />
+Modelo importado en IdeaMaker</p>
 <h3 id="03-seteo">03 | Seteo<a class="headerlink" href="#03-seteo" title="Permanent link">&para;</a></h3>
 <h4 id="03a-configuracion-de-la-malla-importada">03.a | Configuración de la malla importada<a class="headerlink" href="#03a-configuracion-de-la-malla-importada" title="Permanent link">&para;</a></h4>
 <p>Una vez importada la malla en IdeaMaker se desarrollan una serie de pasos para configurarla:</p>
-<ul>
-<li>En primer lugar se procede a escalar la malla a un 150%</li>
-<li>Se procede a disponerla en el espacio según la posición que se entiende que lograrìan una mejor realización de la impresión, una mejor resolución y propiedades mecánicas.
-En este sentido, se opta por una orientación donde los elementos las caras planas de los elementos cilíndricos sean perpendiculares al plano de la cama —evitando así que la gravedad vaya en contra de sus curvas y potencialmente genere deformaciones— y haciendo que los engranajes queden hacia arriba, para así evitar tener que incorporar soportes en caso de que necesiten soportes. </li>
-</ul>
+<p>En primer lugar se procede a escalar la malla a un 150%.
+<img alt="Escalación del modelo" src="../../images/MT05/12.png" />
+Escalación del modelo</p>
+<p>Se procede a disponerla en el espacio según la posición que se entiende que lograrìan una mejor realización de la impresión, una mejor resolución y propiedades mecánicas.</p>
+<p><img alt="Posición original del modelo importado" src="../../images/MT05/14.png" />
+Posición original del modelo importado</p>
+<p><img alt="Rotación del modelo 180º" src="../../images/MT05/15.png" />
+Rotación del modelo 180º</p>
+<p>En este sentido, se opta por una orientación donde los elementos las caras planas de los elementos cilíndricos sean perpendiculares al plano de la cama —evitando así que la gravedad vaya en contra de sus curvas y potencialmente genere deformaciones— y haciendo que los engranajes queden hacia arriba, para así evitar tener que incorporar soportes en caso de que necesiten soportes. </p>
 <p>La diferencia entre ambas configuraciones es de 2 horas 46 minutos vs 2 horas 22 minutos. Si bien se opta por un posicionamiento que lleva 20 minutos más aproximadamente, se entiende que puede ser beneficioso partiendo de la idea de que las piezas del engranaje deben quedar con la mejor definición posible, lo que en caso de recibir soportes no sucedería.</p>
 <h4 id="03b-configuracion-del-slicing">03.b | Configuración del slicing<a class="headerlink" href="#03b-configuracion-del-slicing" title="Permanent link">&para;</a></h4>
 <p>Se selecciona el perfil de laminado a utilizar. Para esta parte se toma como referencia los parámetros y recomendaciones que parten de los lineamientos de las máquinas utilizadas en los FabLabs de UTEC.</p>
-<ul>
-<li>En primer lugar, se selecciona como impresora a utilizar la RAISE3D Pro2 Plus</li>
-<li>Luego, se indica que la impresión se realice con el extrusor izquierdo</li>
-<li>Posteriormente, se selecciona la configuración para el extrusor izquierdo para utilizar filamento de PLA de 1,75mm de diámetros.</li>
-<li>
-<ul>
-<li>Utilizando el submenú dentro de esa sección correspondiente a la plantilla se verifica que se le asigne una altura de capa de 0.2mm así como 2 perímetros de pared.</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>Se le asigna también una balsa (conocido en inglés como Raft) </li>
-</ul>
-</li>
-<li>
-<ul>
-<li>Se selecciona que incluya soportes (opción all) y que también tenga un infill de 10%. Estos valores se extraen de los valores provistos en los tutoriales disponibles en la plataforma EDU.</li>
-</ul>
-</li>
-</ul>
+<p><img alt="Vista de la pieza" src="../../images/MT05/6.png" />
+Vista de la pieza para configurar el slicing, para lo que se utiliza el menú desplegable de la izquierda y derecha (<i>Prepare to slice</i>)</p>
+<p>En primer lugar, se selecciona como impresora a utilizar la RAISE3D Pro2 Plus.
+<img alt="Selección de impresora" src="../../images/MT05/8.png" />
+Selección de impresora</p>
+<p>Luego, se indica que la impresión se realice con el extrusor izquierdo
+<img alt="Selección de extrusor" src="../../images/MT05/9.png" />
+Selección de extrusor</p>
+<p>Posteriormente, se selecciona la configuración para el extrusor izquierdo para utilizar filamento de PLA de 1,75mm de diámetros.
+<img alt="Selección de material" src="../../images/MT05/10.png" />
+Selección de material</p>
+<p>Utilizando el submenú dentro de esa sección correspondiente a la plantilla del material seleccionado, se verifica que se le asigne una altura de capa de 0.2mm así como 2 perímetros de pared. Se le asigna también una balsa (conocido en inglés como Raft) y también se selecciona que incluya soportes (opción all) y que también tenga un infill de 10%. Estos valores se extraen de los valores provistos en los tutoriales disponibles en la plataforma EDU.</p>
+<p><img alt="Configuración de aspectos de la impresión" src="../../images/MT05/11.png" />
+Configuración de aspectos de la impresión</p>
 <h3 id="04-resultado">04 | Resultado<a class="headerlink" href="#04-resultado" title="Permanent link">&para;</a></h3>
-<p>Como resultado del proceso de preparación del modelo 3D inicial y su posterior sliceo se obtiene un archivo .gcode que permitiría su impresión en impresoras RAISE3D Pro2 Plus.
-<a download="MT05-Pablo-Castro.gcode" href="../../archivos%20linkeados/MT05/Pablo_Castro.gcode">Descargar archivo .gcode para RAISE3D Pro2 Plus</a></p>
+<p>Como resultado del proceso de preparación del modelo 3D inicial y su posterior sliceo se obtiene un archivo .gcode que permitiría su impresión en impresoras RAISE3D Pro2 Plus.</p>
+<p><img alt="Visualización de la simulación del slicing" src="../../images/MT05/Gif2-Slicing-corto.gif" />
+Visualización de la simulación del slicing. Para guardar el archivo .gcode se selecciona el desplegable presente en <i>Upload to printer</i> y se selecciona <i>Export to local disc</i></p>
+<p><a download="MT05-Pablo-Castro.gcode" href="../../archivos%20linkeados/MT05/Pablo_Castro.gcode">Descargar archivo .gcode para RAISE3D Pro2 Plus</a></p>
 <h2 id="escaneo-3d">Escaneo 3D<a class="headerlink" href="#escaneo-3d" title="Permanent link">&para;</a></h2>
 <p>Aquí se plantea el escaneo 3D de la luminaria desarrollada en el MT03, mediante la utilización de la app <a href="https://poly.cam/">Polycam</a>.</p>
                 
