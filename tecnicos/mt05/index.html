@@ -498,6 +498,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#05-conclusiones" class="md-nav__link">
+    05 | Conclusiones
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -507,6 +514,40 @@
   <a href="#escaneo-3d" class="md-nav__link">
     Escaneo 3D
   </a>
+  
+    <nav class="md-nav" aria-label="Escaneo 3D">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#01-desarrollo" class="md-nav__link">
+    01 | Desarrollo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#02-observaciones" class="md-nav__link">
+    02 | Observaciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03-resultados" class="md-nav__link">
+    03 | Resultados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04-conclusiones" class="md-nav__link">
+    04 | Conclusiones
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -584,8 +625,48 @@ Configuración de aspectos de la impresión</p>
 <p><img alt="Visualización de la simulación del slicing" src="../../images/MT05/Gif2-Slicing-corto.gif" />
 Visualización de la simulación del slicing. Para guardar el archivo .gcode se selecciona el desplegable presente en <i>Upload to printer</i> y se selecciona <i>Export to local disc</i></p>
 <p><a download="MT05-Pablo-Castro.gcode" href="../../archivos%20linkeados/MT05/Pablo_Castro.gcode">Descargar archivo .gcode para RAISE3D Pro2 Plus</a></p>
+<h3 id="05-conclusiones">05 | Conclusiones<a class="headerlink" href="#05-conclusiones" title="Permanent link">&para;</a></h3>
+<p>Como resultado de este módulo se logró desarrollar un archivo .gcode para la impresora 3D utilizada en los Fab Labs de UTEC. Para esto, fue necesario utilizar un software de slicing que me era desconocido, pues he utilizado anteriormente Cura. Si bien son programas distintos, manejan lógicas similares, por lo que se pueden trasladar sin mucha complejidad los conocimientos del manejo de uno al otro aunque IdeaMaker me resultó un poco menos intuitivo.</p>
+<p>Una dificultad con la que me encontré, tuvo lugar al momento de tomar partido por la disposición del modelo a imprimir, ya que desconocía su finalidad y funcionamiento. Entiendo que de haber contado con esa información podría haber tomado más fácilmente esa decisión, en especial en relación a la resistencia mecánica necesaria.</p>
 <h2 id="escaneo-3d">Escaneo 3D<a class="headerlink" href="#escaneo-3d" title="Permanent link">&para;</a></h2>
-<p>Aquí se plantea el escaneo 3D de la luminaria desarrollada en el MT03, mediante la utilización de la app <a href="https://poly.cam/">Polycam</a>.</p>
+<p>Aquí se plantea el escaneo 3D de la luminaria desarrollada en el MT03, mediante la utilización de la app <a href="https://poly.cam/">Polycam</a>.
+<img alt="Home de Polycam" src="../../images/MT05/16.png" /></p>
+<h3 id="01-desarrollo">01 | Desarrollo<a class="headerlink" href="#01-desarrollo" title="Permanent link">&para;</a></h3>
+<p>Antes de llevar adelante el escaneo 3D de la pieza, se navegó en la interfaz de la aplicación para poder conocerla.</p>
+<p>Al abrir la app, aparece una pantalla similar a la de una cámara común, donde se puede optar por registrar mediante filmación o mediante una secuencia de fotos. Luego de probar, me resultó más práctica esta última opción, ya que permite un mayor control de las fotos a tomar. La interfaz va indicando cuantas fotografías se han registrado, para alcanzar un mínimo que permita su procesamiento.</p>
+<p>Vista con la opción de grabar seleccionada
+<img alt="Vista con la opción de grabar seleccionada" src="../../images/MT05/17.jpg" /></p>
+<p><img alt="Vista con la opción de tomar fotos seleccionada" src="../../images/MT05/18.jpg" />
+Vista con la opción de tomar fotos seleccionada</p>
+<p><img alt="Captura en proceso" src="../../images/MT05/19.jpg" />
+Captura en proceso, indicando la cantidad actual y los mínimos necesarios</p>
+<p>Una vez tomadas las fotografías, el software las procesa y da como resultado un modelo 3D. Este puede procesarse con distintos métodos (en la versión gratuita son limitadas algunas opciones) y permite realizar <i> object masking</i>, lo que permite capturar al modelo independientemente del fondo.
+Cabe señalar que una vez obtenido el modelo, se puede volver a procesar.</p>
+<h3 id="02-observaciones">02 | Observaciones<a class="headerlink" href="#02-observaciones" title="Permanent link">&para;</a></h3>
+<p>Al realizar pruebas de escaneo pude observar que:
+- Para fotografías de un producto, una dificultad es que la cámara capta no sólo al sujeto, sino que también al entorno. Esto puede deberse a aspectos del software, pero también de la cámara del teléfono utilizado, ya que en mi caso se trata de una relativamente vieja (Iphone 8). Puede que otro con diferentes tipos de lentes y cámaras permitan un mejor trabajo</p>
+<ul>
+<li>
+<p>Es necesario poder acceder al objeto desde distintas vistas, lo más «despejadas» de objetos que sea posible. En este sentido, utilizar una mesa por la que uno pueda circular, o colocar el objeto en el piso pueden ser buenas opciones</p>
+</li>
+<li>
+<p>La estabilidad al registrar y registrar una buena cantidad de fotografías son aspectos que mejoran el resultado obtenido</p>
+</li>
+</ul>
+<h3 id="03-resultados">03 | Resultados<a class="headerlink" href="#03-resultados" title="Permanent link">&para;</a></h3>
+<p>Como resultado del escaneo realizado, se pudo registrar el objeto producido en el MT03, así como el entorno donde se lo ubico. Si bien esto último no era parte de los planes, resultó interesante para conocer el nivel de detalle que el software permite obtener y la información que capta. Asimismo, al poder reprocesar el escaneo, se logra obtener el objeto de forma <i>independiente</i> y experimentar en distintas configuraciones.</p>
+<p>Objeto capturado con fondo e información adicional</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h1TaBn_sjJ4?si=tXNGN5T5epBnxVx-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Objeto reprocesado</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mJ8EPLwdtnw?si=Gdg7bLT6LoatHFOW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><a download="MT05-Escaneo-luminaria.gcode" href="../../archivos%20linkeados/MT05/Escaneo%20luminaria%20MT03.glb">Descargar archivo .gltf del escaneo de la luminaria</a></p>
+<h3 id="04-conclusiones">04 | Conclusiones<a class="headerlink" href="#04-conclusiones" title="Permanent link">&para;</a></h3>
+<p>Como resultado de la experimentación con escaneo 3D, arribé a las siguientes conclusiones:</p>
+<p>En primer lugar, creo que el resultado hubiera mejorado con más fotografías —en particular desde el frente del producto en un plano contrapicado— y en un fondo despejado, con un mayor contraste y menos elementos «extra» en el fondo. Cabe señalar que estos dos últimos fueron limitantes del contexto en el que me ubicaba al desarrollar la actividad.</p>
+<p>Respecto al software, si bien creo que es simple de utilizar y permite alcanzar buenos resultados, dando la posibilidad de visibilizar el archivo tanto en web como en mobile, es bastante limitado fuera de su versión pro, pues limita las opciones de procesado y de formatos de exportación. En consecuencia, creo necesario experimentar con otros softwares de escaneo, pues sería positivo acceder a otras posibilidades de procesamiento y exportación.</p>
+<p>Finalmente, entiendo que esta tecnología es de mi interés, pues creo que me puede ser útil para actividades como el registro de objetos y espacios, la realización de renders donde se incluyan modelos escaneados, así como su potencial uso para registrar prototipos o maquetas y su posterior comunicación a terceros, en especial si incorporara el uso de realidad aumentada.</p>
                 
                   
                     
@@ -594,7 +675,7 @@ Visualización de la simulación del slicing. Para guardar el archivo .gcode se 
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 21, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 22, 2024</span>
     
   </small>
 </div>
