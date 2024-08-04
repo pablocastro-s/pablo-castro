@@ -2,7 +2,6 @@
 
 Como resultado del desarrollo de las actividades de los módulos de diseño (MD01 y MD02) e innovación (MI01), se definió como punto de partida para la ideación de la temática del proyecto integrador la siguiente pregunta:
 
-:memo:{.float-left .pct33}
 Dado el contexto actual en torno al papel, extracción de materia prima en Uruguay y su posterior producción y consumo, <b>¿sería posible reutilizar y recircular papel para el desarrollo de productos deseables, viables y factibles?</b>.
 
 A partir de esta pregunta se procedió a indagar más en el tema, dando lugar a dos abordajes temáticos: el primero de nivel contextual (referido a el impacto ambiental y económico productivo) y el acerca de las potencialidades materiales que brinda (o brindaría el papel reciclado).
