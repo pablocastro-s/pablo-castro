@@ -749,32 +749,32 @@
 <p>Dichos mecanizados dependen de las características de cada CNC, que pueden incorporar dos o más ejes, que le permiten moverse en determinadas direcciones. La máquina recibe instrucción mediante los códigos G y M y las ejecuta, realizando diversas operaciones que en el caso de un router podrían ser cortes, rebajes, perforaciones, entre otros. </p>
 <p>En el marco del Módulo Técnico 08 de la Especialización en Fabricación Digital e Innovación, se plantea la elaboración de la configuración de un archivo previamente brindado, para su posterior routeado CNC. Para la elaboración de este código, se parte de un archivo 3D en formato .fd3 y se utiliza el software Fusion 360, así como el postprocesador <a href="https://easel.inventables.com/downloads">Easel</a>.</p>
 <h2 id="configuracion">Configuración<a class="headerlink" href="#configuracion" title="Permanent link">&para;</a></h2>
-<p>Para la realización de esta actividad se parte de un modelo 3D brindado, elaborado en Fusión. En ese mismo software se realizará la configuración del archivo para CNC, a través del apartado <i>Manufacture</i>.
-<img alt="Configuración" src="../imagen%200.png" /></p>
+<p>Para la realización de esta actividad se parte de un modelo 3D brindado, elaborado en Fusión. En ese mismo software se realizará la configuración del archivo para CNC, a través del apartado <i>Manufacture</i>.</p>
+<p><img alt="Configuración" src="../imagen%200.png" /></p>
 <h3 id="configuracion-de-la-maquina-a-utilizar">Configuración de la máquina a utilizar<a class="headerlink" href="#configuracion-de-la-maquina-a-utilizar" title="Permanent link">&para;</a></h3>
 <p>Como primer paso se ingresa la máquina que se va a utilizar para preparar el archivo, en este casos se selecciona a utilizar como fresadora la Autodesk generic 3-axis router. </p>
-<p><img alt="Configuración de la maquina" src="../imagen%201.1.png" />
-<img alt="Configuración de la maquina 2" src="../imagen%201.png" /></p>
+<p><img alt="Configuración de la maquina 1" src="../imagen%201.png" />
+<img alt="Configuración de la maquina 2" src="../imagen%201.1.png" /></p>
 <h3 id="seteo-de-operaciones">Seteo de operaciones<a class="headerlink" href="#seteo-de-operaciones" title="Permanent link">&para;</a></h3>
-<p>Para el modelo 3D se setean distintas operaciones de mecanizado en Fusion, utilizando una misma fresa de Ø&#8539;” tipo <i>Flat Endmil</i>,lo que quiere decir que su <i>cara</i> cortante está capacitada para realizar operaciones planas, paralelas a la cama de corte. Cabe señalar que para esta sección se hará referencia al nombre de las operaciones en inglés, pues no solo es en el que estaba el software utilizado, sino que también es más universal, pero también se menciona para qué es utilizada.
-<img alt="Fresa seleccionada" src="../imagen%202.png" /></p>
+<p>Para el modelo 3D se setean distintas operaciones de mecanizado en Fusion, utilizando una misma fresa de Ø&#8539;” tipo <i>Flat Endmil</i>,lo que quiere decir que su <i>cara</i> cortante está capacitada para realizar operaciones planas, paralelas a la cama de corte. Cabe señalar que para esta sección se hará referencia al nombre de las operaciones en inglés, pues no solo es en el que estaba el software utilizado, sino que también es más universal, pero también se menciona para qué es utilizada.</p>
+<p><img alt="Fresa seleccionada" src="../imagen%202.png" /></p>
 <h4 id="2d-pocket">2D Pocket<a class="headerlink" href="#2d-pocket" title="Permanent link">&para;</a></h4>
 <p>Se utiliza esta operación para realizar un fresado de cavidades. En este caso se realizan dos: una para el rebaje en forma de cruz y para el rebaje previo a los agujeros pasantes. A continuación se ejemplifica con la primera de ellas.</p>
-<p>Como punto de partida, en la pestaña <b>Tool</b>, se selecciona la fresa a la que se hizo referencia anteriormente ( Ø&#8539;” Flat Endmil) y desactiva el uso de refrigerantes. Los parámetros Feed y Speed son los correspondientes al preset por default del programa.
-<img alt="2D pocket" src="../imagen%203.0.png" /></p>
-<p>En la pestaña <b>Geometry</b> se selecciona para configurar la orientación de la herramienta. Se selecciona para el eje Z la cara correspondiente a la vista superior y para lo que es el origen mediante el método de <i>Stock box point</i>, se selecciona un vértice ubicado en una esquina. Este criterio se mantiene para todas las configuraciones.
-<img alt="Geometry" src="../imagen%204.png" /></p>
+<p>Como punto de partida, en la pestaña <b>Tool</b>, se selecciona la fresa a la que se hizo referencia anteriormente ( Ø&#8539;” Flat Endmil) y desactiva el uso de refrigerantes. Los parámetros Feed y Speed son los correspondientes al preset por default del programa.</p>
+<p><img alt="2D pocket" src="../imagen%203.0.png" /></p>
+<p>En la pestaña <b>Geometry</b> se selecciona para configurar la orientación de la herramienta. Se selecciona para el eje Z la cara correspondiente a la vista superior y para lo que es el origen mediante el método de <i>Stock box point</i>, se selecciona un vértice ubicado en una esquina. Este criterio se mantiene para todas las configuraciones.</p>
+<p><img alt="Geometry" src="../imagen%204.png" /></p>
 <p>Posteriormente, en la pestaña <b>Heights</b>, donde se configuran las alturas en las que el CNC se moverá, se ingresan los siguientes parámetros</p>
 <ul>
 <li>Clearance height: Top height, offset 10 mm</li>
 <li>Retract height: Top height, offset 05 mm</li>
 <li>Feed height: Top height, offset 05 mm</li>
 <li>Top height: Stock top, Highest of selected, offset 0 mm</li>
-<li>Bottom height: Lowest of selected, Sock bottom, Model Bottom, offset 0 mm
-<img alt="Alturas" src="../imagen%205.png" /></li>
+<li>Bottom height: Lowest of selected, Sock bottom, Model Bottom, offset 0 mm</li>
 </ul>
-<p>En la pestaña <b>Passes</b> se selecciona la opción <i>Multiple depths</i> y se le asigna un valor de 1 mm al Maximum roughing stepdown. 
-<img alt="Pasadas" src="../imagen%206.png" /></p>
+<p><img alt="Alturas" src="../imagen%205.png" /></p>
+<p>En la pestaña <b>Passes</b> se selecciona la opción <i>Multiple depths</i> y se le asigna un valor de 1 mm al Maximum roughing stepdown. </p>
+<p><img alt="Pasadas" src="../imagen%206.png" /></p>
 <h4 id="drill">Drill<a class="headerlink" href="#drill" title="Permanent link">&para;</a></h4>
 <p>Para el seteado de las perforaciones que serán taladradas, se realizan las configuraciones de la herramienta mencionadas anteriormente en la pestaña Tool y se setea de igual forma en Geometry, salvo que se seleccionan simultáneamente  las cuatro perforaciones a realizar.
 En la pestaña <b>Heights</b> inicialmente se le asignaron los siguientes valores:</p>
@@ -783,38 +783,38 @@ En la pestaña <b>Heights</b> inicialmente se le asignaron los siguientes valore
 <li>Retract height: Top height, offset 05 mm</li>
 <li>Feed height: Top height, offset 05 mm</li>
 <li>Top height: Stock top, Hole top, offset 0 mm</li>
-<li>Bottom height: Hole bottom, offset 0 mm
-<img alt="Taladrado" src="../imagen%207.png" /></li>
+<li>Bottom height: Hole bottom, offset 0 mm</li>
 </ul>
+<p><img alt="Taladrado" src="../imagen%207.png" /></p>
 <h4 id="2d-contour">2D Contour<a class="headerlink" href="#2d-contour" title="Permanent link">&para;</a></h4>
-<p>Esta operación es utilizada en dos ocasiones distintas:para el corte exterior del contorno de la pieza y para el corte interior de la pieza de forma circular.
-<img alt="Contour 1" src="../imagen%208.png" />
-<img alt="Contour 2" src="../imagen%209.png" /></p>
+<p>Esta operación es utilizada en dos ocasiones distintas:para el corte exterior del contorno de la pieza y para el corte interior de la pieza de forma circular.</p>
+<p><img alt="Contour 1" src="../imagen%208.png" /></p>
+<p><img alt="Contour 2" src="../imagen%209.png" /></p>
 <p>Una vez configuradas las distintas operaciones se procede a simular las distintas operaciones que el CNC llevaría a cabo, como paso previo a generar el código .CN.</p>
 <h4 id="error-1">Error 1<a class="headerlink" href="#error-1" title="Permanent link">&para;</a></h4>
 <p>Al hacer dicha simulación se encuentra con un mensaje de error correspondiente a la realización de las 4 perforaciones del taladrado, denominado <i>Rapid move into stock</i>.
 <img alt="Error 1" src="../imagen%2010.png" /></p>
-<p>Luego de chequear los distintos parámetros correspondientes a la operación de taladrado y tratar de comprender el error, se opta por corregir las alturas de seguridad, que pasan de 5mm a 10mm. También se selecciona solamente la opción de model bottom, para que la Bottom height sea en todos los casos de -11.
-<img alt="Alturas finales" src="../imagen%2011.png" /></p>
+<p>Luego de chequear los distintos parámetros correspondientes a la operación de taladrado y tratar de comprender el error, se opta por corregir las alturas de seguridad, que pasan de 5mm a 10mm. También se selecciona solamente la opción de model bottom, para que la Bottom height sea en todos los casos de -11.</p>
+<p><img alt="Alturas finales" src="../imagen%2011.png" /></p>
 <p>De esta forma se puede llevar a cabo la simulación sin error alguno, por lo que se procede a postprocesar la configuración realizada.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SuLx0sJgSn8?si=byndAAkaQZFVWSO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h3 id="postprocesado">Postprocesado<a class="headerlink" href="#postprocesado" title="Permanent link">&para;</a></h3>
-<p>Para la realización del postprocesado se selecciona la opción de <b>Post</b> el postprocesador Easel. 
-<img alt="Easel" src="../imagen%2012.png" /></p>
-<p>Sin embargo, al querer completar el proceso Fusion notifica que no se pudo completar el postprocesado. Al querer revisar el error en el archivo, se observan los siguientes mensajes:
-<img alt="Errores" src="../imagen%2013.png" /></p>
+<p>Para la realización del postprocesado se selecciona la opción de <b>Post</b> el postprocesador Easel. </p>
+<p><img alt="Easel" src="../imagen%2012.png" /></p>
+<p>Sin embargo, al querer completar el proceso Fusion notifica que no se pudo completar el postprocesado. Al querer revisar el error en el archivo, se observan los siguientes mensajes:</p>
+<p><img alt="Errores" src="../imagen%2013.png" /></p>
 <h4 id="error-2a">Error 2.a<a class="headerlink" href="#error-2a" title="Permanent link">&para;</a></h4>
-<p>El primero de los errores que figuran en el archivo obtenido indica que <i>Work offset has not been specified</i>. Luego de hacer distintas pruebas, se opta por buscar el error en internet, a lo que en un mensaje del <a href="https://forums.autodesk.com/t5/fusion-manufacture/warning-work-offset-has-not-been-specified-using-g54-as-wcs-why/td-p/9640658">Foro de Fusion</a> se encuentra el error y su solución: cambiar en el setup general el valor de WCS Offset de 0 a 1.
-<img alt="Error 2.a" src="../imagen%2014.png" /></p>
+<p>El primero de los errores que figuran en el archivo obtenido indica que <i>Work offset has not been specified</i>. Luego de hacer distintas pruebas, se opta por buscar el error en internet, a lo que en un mensaje del <a href="https://forums.autodesk.com/t5/fusion-manufacture/warning-work-offset-has-not-been-specified-using-g54-as-wcs-why/td-p/9640658">Foro de Fusion</a> se encuentra el error y su solución: cambiar en el setup general el valor de WCS Offset de 0 a 1.</p>
+<p><img alt="Error 2.a" src="../imagen%2014.png" /></p>
 <h4 id="error-2b">Error 2.b<a class="headerlink" href="#error-2b" title="Permanent link">&para;</a></h4>
-<p>Al intentar post procesar nuevamente la configuración realizada, los demás errores presentes en el intento anterior se mantienen presentes. 
-<img alt="Error 2.b" src="../imagen%2015.png" /></p>
-<p>Nuevamente, luego de experimentar soluciones infructuosamente, volver a generar las operaciones con errores y buscar el problema, se da con la solución en el  <a href="https://forums.autodesk.com/t5/fusion-manufacture/simulation-is-fine-but-post-gives-a-tool-orientation-not/m-p/8382098">Foro de Fusion</a>. El problema se debe a que en el setup general del archivo no se seleccionó la orientación ni el eje Z ni el X. Para eso se sigue el criterio con el que se selecciona la orientación de la herramienta en las distintas operaciones. De esta forma, la orientación de la herramienta general se condice con la de las distintas operaciones.
-<img alt="Solucion 2.b" src="../imagen%2016.png" /></p>
+<p>Al intentar post procesar nuevamente la configuración realizada, los demás errores presentes en el intento anterior se mantienen presentes. </p>
+<p><img alt="Error 2.b" src="../imagen%2015.png" /></p>
+<p>Nuevamente, luego de experimentar soluciones infructuosamente, volver a generar las operaciones con errores y buscar el problema, se da con la solución en el  <a href="https://forums.autodesk.com/t5/fusion-manufacture/simulation-is-fine-but-post-gives-a-tool-orientation-not/m-p/8382098">Foro de Fusion</a>. El problema se debe a que en el setup general del archivo no se seleccionó la orientación ni el eje Z ni el X. Para eso se sigue el criterio con el que se selecciona la orientación de la herramienta en las distintas operaciones. De esta forma, la orientación de la herramienta general se condice con la de las distintas operaciones.</p>
+<p><img alt="Solucion 2.b" src="../imagen%2016.png" /></p>
 <h2 id="resultado">Resultado<a class="headerlink" href="#resultado" title="Permanent link">&para;</a></h2>
-<p>Como resultado de las configuraciones realizadas, se logra realizar el setup del archivo y obtener el código .nc.
-<a download="Pablo Castro - MT08.nc" href="../../archivos%20linkeados/MT08/Pablo%20Castro%20-%20MT08.nc">Descargar archivo .nc - MT08</a></p>
+<p>Como resultado de las configuraciones realizadas, se logra realizar el setup del archivo y obtener el código .nc.</p>
+<p><a download="Pablo Castro - MT08.nc" href="../../archivos%20linkeados/MT08/Pablo%20Castro%20-%20MT08.nc">Descargar archivo .nc - MT08</a></p>
 <h2 id="conclusiones">Conclusiones<a class="headerlink" href="#conclusiones" title="Permanent link">&para;</a></h2>
 <p>A partir de la realización del MT08 pude profundizar en conocimientos de tecnologías de CNC con las que ya tenía experiencia y había utilizado. Asimismo, en relación al ejercicio propuesto, me fue útil para poder aprender a desarrollar el seteo de un archivo para CNC, ya que solamente había desarrollado productos para fabricación en esa tecnología y preparado archivos e indicaciones para este fin, pero no había sido responsable de configurarlo.</p>
 <p>Respecto al ejercicio en particular, destaco el aprendizaje de realizar una correcta configuración de los planos en un principio para evitar potenciales errores. </p>
