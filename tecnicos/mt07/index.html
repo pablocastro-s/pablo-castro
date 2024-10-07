@@ -741,7 +741,7 @@
                 <h1 id="mt07">MT07<a class="headerlink" href="#mt07" title="Permanent link">&para;</a></h1>
 <h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
 <p>El Módulo Técnico 07: <em>Interfaces y aplicaciones</em> trata el uso de interfaces digitales en conjunto con otras herramientas, para su uso en diversos tipos de proyectos.</p>
-<p>¿Qué se entiende por interfaz? Según la Organización Internacional de Estandarización (ISO por sus siglas en inglés) y su lineamiento <a href="https://www.iso.org/obp/ui/#iso:std:iso:9241:-210:ed-1:v1:en">ISO 9241-210:201</a> una interfaz de usuario refiere a _todos los componentes de un sistema interactivo (ya sea software o hardware) que provee de información y control al usuario para lograr tareas específicas con ese sistema interactivo.</p>
+<p>¿Qué se entiende por interfaz? Según la Organización Internacional de Estandarización (ISO por sus siglas en inglés) y su lineamiento <a href="https://www.iso.org/obp/ui/#iso:std:iso:9241:-210:ed-1:v1:en">ISO 9241-210:201</a> una interfaz de usuario refiere a <em>todos los componentes de un sistema interactivo (ya sea software o hardware) que provee de información y control al usuario para lograr tareas específicas con ese sistema interactivo</em>.</p>
 <p>En ese contexto, distintas plataformas como <a href="https://processing.org/">Processing</a>, en conjunto con otras como Arduino IDE, permiten desarrollar distintas interfaces para generar y prototipar interacciones de diverso tipo, ya sea para accionar elementos, capturar información, entre otros.</p>
 <p>En ese marco, para el presente módulo se plantean dos actividades. La primera de ellas (<em>Actividad 01</em>) plantea el desarrollo de una interfaz para controlar dos LEDs y su encendido/apagado. La segunda de ellas (<em>Actividad 02</em>), plantea el uso de una fotoresistencia para capturar información sobre el nivel de iluminación y el consiguiente desarrollo de una interfaz que permita visualizar la información recogida. </p>
 <p><em>Aclaración: al momento de la publicación de esta entrada en el repositorio, solamente la Actividad 01 se encuentra documentada. En los próximos días se procederá a cargar la información sobre la Actividad 02.</em></p>
@@ -800,16 +800,17 @@ Por lo que se pudo explorar al afrontar estos inconvenientes, se desarrollaron l
 Falta de formato de la fuente</p>
 <h4 id="la-interfaz-no-accionaba-los-leds-a-pesar-de-no-presentar-error">La interfaz no accionaba los LEDs, a pesar de no presentar error<a class="headerlink" href="#la-interfaz-no-accionaba-los-leds-a-pesar-de-no-presentar-error" title="Permanent link">&para;</a></h4>
 <p>Al accionar los botones de la interfaz los LEDs no se encendían. La solución estaba en cambiar en la función donde se definían los botones, tanto rojo como verde, el <em>void toggle</em>, por simplemente <em>void</em>.</p>
+<p><strong>Código inicial:</strong>
 <div class="highlight"><pre><span></span><code><span class="c1">// Function to toggle the rojo button</span>
 <span class="kt">void</span><span class="w"> </span><span class="nf">toggleRojo</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="n">rojoState</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">!</span><span class="n">rojoState</span><span class="p">;</span><span class="w">  </span><span class="c1">// Toggle the state</span>
-</code></pre></div>
-<p>a </p>
+</code></pre></div></p>
+<p><strong>Código revisado</strong>
 <div class="highlight"><pre><span></span><code><span class="c1">// Function to toggle the rojo button</span>
 <span class="c1">// Toggle the &quot;rojo&quot; button</span>
 <span class="kt">void</span><span class="w"> </span><span class="nf">rojo</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="n">rojoState</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">!</span><span class="n">rojoState</span><span class="p">;</span><span class="w">  </span><span class="c1">// Toggle the state</span>
-</code></pre></div>
+</code></pre></div></p>
 <h3 id="codigos">Códigos<a class="headerlink" href="#codigos" title="Permanent link">&para;</a></h3>
 <p>Código para Processing:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">controlP5.*</span><span class="p">;</span><span class="w"> </span><span class="c1">// importa la librería anteriormente descargada (Control IP5)</span>
