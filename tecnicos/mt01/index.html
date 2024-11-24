@@ -287,6 +287,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#pasos-para-la-configuracion-de-un-repositorio-en-github" class="md-nav__link">
+    Pasos para la configuración de un repositorio en Github
+  </a>
+  
+    <nav class="md-nav" aria-label="Pasos para la configuración de un repositorio en Github">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#01-crear-una-cuenta-en-github" class="md-nav__link">
     01 | Crear una cuenta en GitHub
   </a>
@@ -329,14 +337,33 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#07-epilogo-ediciones-y-cambios-posteriores" class="md-nav__link">
-    07 | Epilogo: ediciones y cambios posteriores
+  <a href="#07-cambios-posteriores" class="md-nav__link">
+    07 | Cambios posteriores
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-de-referencia" class="md-nav__link">
+    Material de referencia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones" class="md-nav__link">
+    Conclusiones
+  </a>
   
 </li>
       
@@ -637,6 +664,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#pasos-para-la-configuracion-de-un-repositorio-en-github" class="md-nav__link">
+    Pasos para la configuración de un repositorio en Github
+  </a>
+  
+    <nav class="md-nav" aria-label="Pasos para la configuración de un repositorio en Github">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#01-crear-una-cuenta-en-github" class="md-nav__link">
     01 | Crear una cuenta en GitHub
   </a>
@@ -679,14 +714,33 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#07-epilogo-ediciones-y-cambios-posteriores" class="md-nav__link">
-    07 | Epilogo: ediciones y cambios posteriores
+  <a href="#07-cambios-posteriores" class="md-nav__link">
+    07 | Cambios posteriores
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-de-referencia" class="md-nav__link">
+    Material de referencia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones" class="md-nav__link">
+    Conclusiones
+  </a>
   
 </li>
       
@@ -712,37 +766,67 @@
                 
                 <h1 id="mt01">MT01<a class="headerlink" href="#mt01" title="Permanent link">&para;</a></h1>
 <h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
-<p>En este módulo se desarrolla el sitio web estático correspondiente a la documentación del trabajo a lo largo de la Especialización en Fabricación Digital e Innovación. </p>
+<p>En el marco del módulo técnico 01 (MT01), introducción a herramientas digitales, se desarrolla el sitio web estático con la finalidad de albergar y registrar la documentación del trabajo que vaya a realizar a lo largo de la Especialización en Fabricación Digital e Innovación.</p>
+<p>Para ese fin se utiliza un sistema de control de versiones (VCS, por sus siglas en inglés), que permite registrar los cambios en un conjunto de archivos y permite el almacenamiento de versiones, la posibilidad de rastrear y recuperar versiones y realizar copias de seguridad.</p>
+<p>En este caso, se utiliza como software de control de versiones a Git. Este VCS se caracteriza por su eficiencia, pues solo almacena aquellos archivos que han sido modificados. En aquellos que no,  solo incorpora un enlace al archivo ya existente.</p>
+<p>La plataforma en línea de versión de controles Git utilizada aquí es Github, que se caracteriza por el almacenaje en repositorios, facilitar el seguimiento y control de versiones, la colaboración entre personas y la existencia de <em>Pages</em>; estas permiten a publicar una web estática directamente del repositorio.</p>
 <h2 id="desarrollo">Desarrollo<a class="headerlink" href="#desarrollo" title="Permanent link">&para;</a></h2>
 <p>Ante la tarea de tener que crear un sitio web estático, luego de volver a ver la grabación de la clase y consultar los materiales disponibles en la plataforma EDU, me dispuse de preparar los distintos recursos que necesitaría previamente para eso, como descargar los programas necesarios y crear una cuenta en GitHub. </p>
-<h3 id="01-crear-una-cuenta-en-github">01 | Crear una cuenta en GitHub<a class="headerlink" href="#01-crear-una-cuenta-en-github" title="Permanent link">&para;</a></h3>
+<h3 id="pasos-para-la-configuracion-de-un-repositorio-en-github">Pasos para la configuración de un repositorio en Github<a class="headerlink" href="#pasos-para-la-configuracion-de-un-repositorio-en-github" title="Permanent link">&para;</a></h3>
+<p>Para configurar el repositorio y publicarlo como web, se siguieron adelante los siguientes procedimientos:</p>
+<ul>
+<li>01 | Crear una cuenta en GitHub</li>
+<li>02 | Instalar Git</li>
+<li>03 | Configurar Git con Gitbash</li>
+<li>04 | Generar una SSH key</li>
+<li>05 | Realización del fork del template y creación del repositorio local</li>
+<li>06 | Activación del sitio</li>
+<li>07 | Cambios posteriores</li>
+</ul>
+<h4 id="01-crear-una-cuenta-en-github">01 | Crear una cuenta en GitHub<a class="headerlink" href="#01-crear-una-cuenta-en-github" title="Permanent link">&para;</a></h4>
 <p>Se crea una cuenta en GitHub.</p>
-<h3 id="02-instalar-git">02 | Instalar Git<a class="headerlink" href="#02-instalar-git" title="Permanent link">&para;</a></h3>
+<h4 id="02-instalar-git">02 | Instalar Git<a class="headerlink" href="#02-instalar-git" title="Permanent link">&para;</a></h4>
 <p>La instalación succedió sin inconvenientes. Luego de instalado, fué necesario probar uno por uno cuál de los tres necesitaba para acceder a la terminal de comandos.</p>
 <p><img alt="Programas instalados al instalar Git" src="../../images/MT01/Imagen%200%20-%20b.png" /></p>
-<h3 id="03-configurar-git-con-gitbash">03 | Configurar Git con Gitbash<a class="headerlink" href="#03-configurar-git-con-gitbash" title="Permanent link">&para;</a></h3>
+<h4 id="03-configurar-git-con-gitbash">03 | Configurar Git con Gitbash<a class="headerlink" href="#03-configurar-git-con-gitbash" title="Permanent link">&para;</a></h4>
 <p>Se comienza a realizar la configuración de Git con Gitbash. Esto es también un acercamiento al primer uso de la consola en esta plataforma. </p>
 <p><img alt="Primeras pruebas en la consola" src="../../images/MT01/Imagen%200%20-%20a.png" /></p>
 <p>El primer inconveniente encontrado es la necesidad de ser preciso con los comandos ingresados, como se puede ver en la imágen inferior.</p>
 <p><img alt="Seteo Git en la computadora" src="../../images/MT01/Imagen%202%20-%20seteo%20git.png" /></p>
-<h3 id="04-generar-una-ssh-key">04 | Generar una SSH key<a class="headerlink" href="#04-generar-una-ssh-key" title="Permanent link">&para;</a></h3>
+<h4 id="04-generar-una-ssh-key">04 | Generar una SSH key<a class="headerlink" href="#04-generar-una-ssh-key" title="Permanent link">&para;</a></h4>
 <p>Se realiza una SSH key para poder continuar con el procedimiento.</p>
-<h3 id="05-realizacion-del-fork-del-template-y-creacion-del-repositorio-local">05 | Realización del fork del template y creación del repositorio local<a class="headerlink" href="#05-realizacion-del-fork-del-template-y-creacion-del-repositorio-local" title="Permanent link">&para;</a></h3>
+<h4 id="05-realizacion-del-fork-del-template-y-creacion-del-repositorio-local">05 | Realización del fork del template y creación del repositorio local<a class="headerlink" href="#05-realizacion-del-fork-del-template-y-creacion-del-repositorio-local" title="Permanent link">&para;</a></h4>
 <p>Se realiza el fork del template EFDI, para poder incorporarlo en el repositorio propio.</p>
 <p><img alt="Configuración y errores presentes" src="../../images/MT01/Imagen%203%20-%20configuracion%20y%20errores.png" /></p>
 <p>En esa etapa me enfrenté a una serie de dificultades y errores que implicaron volver a probar hasta que daba con cual era el inconveniente y su solución. Como se puede ver en la imagen, en primer lugar el nombre del directorio en que se encontraba la carpeta —probablemente por su extensión— traía un error, reflejado en el mensaje «Too many arguments». Luego de googlear cual podría ser el error, se optó por cambiarle el nombre a la carpeta por uno de menor extensión. Posteriormente faltó ingresar el comando «cd», que permite navegar en el directorio.</p>
 <p>Finalmente se pudo clonar el repositorio en mi terminal.</p>
-<h3 id="06-activacion-del-sitio">06 | Activación del sitio<a class="headerlink" href="#06-activacion-del-sitio" title="Permanent link">&para;</a></h3>
+<h4 id="06-activacion-del-sitio">06 | Activación del sitio<a class="headerlink" href="#06-activacion-del-sitio" title="Permanent link">&para;</a></h4>
 <p>Luego de clonado el respositorio en mi computadora, fue necesario agregarlo y editarlo en Visual Studio. Habiendo hecho algunos cambios en la sección «About», me dispuse a activar el sitio.</p>
 <p>Para mi sorpresa, me era imposible seleccionar en dentro de la sección Pages de GitHub la opción gh-pages. Busqué soluciones pero me era imposible dar con ella hasta, luego de revisar intercambios en el Discord de la clase, donde varias personas se encontraban con problemas similares, me surgió la idea de probar de editar otros archivos, como Readme.me y mkdocs.yml, para posteriormente intentar nuevamente publicar el sitio.</p>
 <p><img alt="Posibilidad de seleccionar gh-pages" src="../../images/MT01/Imagen%204%20.png" /></p>
 <p>Por suerte, estos intentos fueron exitosos y me permitieron activar y publicar el sitio. En la imagen inferior se pueden observar los workflows alcanzados al momento.</p>
 <p><img alt="Workflows al momento" src="../../images/MT01/Imagen%205%20b.png" /></p>
-<h3 id="07-epilogo-ediciones-y-cambios-posteriores">07 | Epilogo: ediciones y cambios posteriores<a class="headerlink" href="#07-epilogo-ediciones-y-cambios-posteriores" title="Permanent link">&para;</a></h3>
-<p>Posteriormente busqué cambiar el mensaje de bienvenida, ahí la dificultad estuvo en dar con el archivo necesario para eso. </p>
+<h4 id="07-cambios-posteriores">07 | Cambios posteriores<a class="headerlink" href="#07-cambios-posteriores" title="Permanent link">&para;</a></h4>
+<p>Posteriormente a la configuración del sitio, busqué cambiar el mensaje de bienvenida, ahí la dificultad estuvo en dar con el archivo necesario para eso. </p>
 <p><img alt="Edición de sección Welcome" src="../../images/MT01/Imagen%206.png" /></p>
 <p>Asimismo, quise empezar a experimentar en la realización de cambios mínimos a nivel estéticos y visuales en la web. En este sentido, busque cambiar la tipografía del sitio por una diferente; para esto se optó por seleccionar la tipografía <a href="https://rsms.me/inter/">Inter</a>.</p>
 <p><img alt="Cambio tipografía" src="../../images/MT01/Imagen%207.png" /></p>
+<h2 id="material-de-referencia">Material de referencia<a class="headerlink" href="#material-de-referencia" title="Permanent link">&para;</a></h2>
+<p>Como material de referencia para la elaboración del repositorio, además del provisto en clase, se utilizaron las siguientes fuentes:</p>
+<ul>
+<li>
+<p><a href="https://squidfunk.github.io/mkdocs-material/setup/">Guía de setup - MkDocs - Squidfunk </a></p>
+</li>
+<li>
+<p><a href="https://www.mkdocs.org/user-guide/customizing-your-theme/">Customización de tema - MkDocs</a></p>
+</li>
+<li>
+<p><a href="https://www.mkdocs.org/getting-started/">Getting started - MkDocs</a></p>
+</li>
+</ul>
+<h2 id="conclusiones">Conclusiones<a class="headerlink" href="#conclusiones" title="Permanent link">&para;</a></h2>
+<p>Como resultado del desarrollo del MT01 se pudo llevar lograr establecer un repositorio publicado como una web a través de Git Hub. En este caso, el contenido y configuraciones del tema es desarrollado a través del IDE <em>VS Code</em>.</p>
+<p>Personalmente, desconocía el potencial de este tipo de plataformas para su uso como repositorio. Asimismo, la lógica para la carga de archivos y edición y formateo de texto, si bien en un principio resultar un poco engorroso, luego de utilizarla y explorar su uso, se consigue entender su lógica de funcionamiento. En ese sentido, al poder formatear utilizando html me resulta más familiar y cercano.</p>
                 
                   
                     
@@ -751,7 +835,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 31, 2024</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 24, 2024</span>
     
   </small>
 </div>
