@@ -53,7 +53,8 @@ Asimismo, la industria forestal tiene desde hace al menos dos décadas una nueva
 
 El colectivo MapBiomas Uruguay sostiene que en nuestro país **se perdió 2,5 millones de hectáreas de pastizales naturales entre 1985 y 2022**.(...) En porcentaje, el análisis de las imágenes satelitales permite decir que **en 38 años nuestro país perdió 20% de sus pastizales naturales**. (Lagos, 2023) En concordancia con eso, el área para a cultivos y pasturas implantadas aumentó 42% y **la destinada a forestación 750%**. 
 
-![Pérdida de pastizal 1985-2022](../images/PF/PF01/Perdida_de_pastizal_1985-2022_-_Mapa_de_MapBiomas_Uruguay_1200w.jpg)
+![Pérdida de pastizal 1985-2022](../images/PF/Perdida_de_pastizal_1985-2022_-_Mapa_de_MapBiomas_Uruguay_1200w.jpg)
+
 Pérdida de pastizal 1985-2022. Extraído de la diaria a partir de un mapa de MapBiomas Uruguay [Se puede consultar la versión interactiva desglosada](https://plataforma.uruguay.mapbiomas.org/).
 
 
