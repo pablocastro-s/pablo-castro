@@ -42,7 +42,7 @@ Del Pino Machado et al sostienen que «Recientemente Uruguay ha atravesado un ca
 
 Alice Altesor (2014) afirma que el pastizal no solo ha sido clave para el desarrollo de la principal actividad económica históricamente (la ganaderìa). Además en el área de pastizales que comprenden Uruguay, Argentina y Brasil, el pastizal ha sido clave para el desarrollo de su identidad cultural, en particular la cultura *gauchesca*.
 > «De tan presente que está, al pastizal nadie parece verlo. La percepción de la naturaleza no es la misma para todos los que la miran»
-— Alice Altesor <
+— Alice Altesor
 
 
 ### ¿A qué se debe ese decrecimiento del Pastizal? 
