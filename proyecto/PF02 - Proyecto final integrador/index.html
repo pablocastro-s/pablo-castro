@@ -1,0 +1,873 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Especialización en Fabricación Digital e Innovación">
+      
+      
+        <link rel="canonical" href="https://pablocastro-s.github.io/pablo-castro/proyecto/PF02%20-%20Proyecto%20final%20integrador/">
+      
+      
+        <meta name="author" content="Pablo Castro">
+      
+      <link rel="shortcut icon" href="../../images/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-5.5.11">
+    
+    
+      
+        <title>Proyecto final integrador - Pablo Castro - UTEC & Fab Lab Barcelona</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.860688db.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.943997b5.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#000000">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CInter&display=fallback">
+        <style>body,input{font-family:"Inter",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Inter",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proyecto-final-integrador" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://pablocastro-s.github.io/pablo-castro/" title="Pablo Castro - UTEC & Fab Lab Barcelona" class="md-header-nav__button md-logo" aria-label="Pablo Castro - UTEC & Fab Lab Barcelona">
+      
+  <img src="../../images/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Pablo Castro - UTEC & Fab Lab Barcelona
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Proyecto final integrador
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/pablocastro-s" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Repositorio de Pablo Castro
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://pablocastro-s.github.io/pablo-castro/" title="Pablo Castro - UTEC & Fab Lab Barcelona" class="md-nav__button md-logo" aria-label="Pablo Castro - UTEC & Fab Lab Barcelona">
+      
+  <img src="../../images/favicon.svg" alt="logo">
+
+    </a>
+    Pablo Castro - UTEC & Fab Lab Barcelona
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/pablocastro-s" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Repositorio de Pablo Castro
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/me/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Modulos Técnicos
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Técnicos" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Técnicos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt01/" title="MT01" class="md-nav__link">
+      MT01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt02/" title="MT02" class="md-nav__link">
+      MT02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt03/" title="MT03" class="md-nav__link">
+      MT03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt04/" title="MT04" class="md-nav__link">
+      MT04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt05/" title="MT05" class="md-nav__link">
+      MT05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt06/" title="MT06" class="md-nav__link">
+      MT06
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt07/" title="MT07" class="md-nav__link">
+      MT07
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt08/" title="MT08" class="md-nav__link">
+      MT08
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tecnicos/mt09/" title="MT09" class="md-nav__link">
+      MT09
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modulos Diseño
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Diseño" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Diseño
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md01/" title="MD01" class="md-nav__link">
+      MD01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md02/" title="MD02" class="md-nav__link">
+      MD02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md03/" title="MD03" class="md-nav__link">
+      MD03
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Modulos Innovación
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Innovación" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Innovación
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi01/" title="MI01" class="md-nav__link">
+      MI01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi02/" title="MI02" class="md-nav__link">
+      MI02
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Proyecto Integrador
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Proyecto Integrador" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Proyecto Integrador
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../PF00%20-Ideas%20iniciales/" title="Ideas Iniciales" class="md-nav__link">
+      Ideas Iniciales
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../PF01%20-Desarrollo%20tem%C3%A1tico/" title="Desarrollo temático" class="md-nav__link">
+      Desarrollo temático
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#presentacion" class="md-nav__link">
+    Presentación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desarrollo-de-la-idea" class="md-nav__link">
+    Desarrollo de la idea
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-y-antecedentes" class="md-nav__link">
+    Referencias y antecedentes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benteveo" class="md-nav__link">
+    Benteveo
+  </a>
+  
+    <nav class="md-nav" aria-label="Benteveo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#material-en-base-a-papel" class="md-nav__link">
+    Material en base a papel
+  </a>
+  
+    <nav class="md-nav" aria-label="Material en base a papel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exploracion-01" class="md-nav__link">
+    Exploracion 01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exploracion-02" class="md-nav__link">
+    Exploracion 02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exploracion-03" class="md-nav__link">
+    Exploracion 03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusiones" class="md-nav__link">
+    Conclusiones
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desarrollo-de-la-camara-estenopeica" class="md-nav__link">
+    Desarrollo de la cámara estenopeica
+  </a>
+  
+    <nav class="md-nav" aria-label="Desarrollo de la cámara estenopeica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aspectos-formales" class="md-nav__link">
+    Aspectos formales
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aspectos-tecnologicos-y-materiales" class="md-nav__link">
+    Aspectos tecnológicos y materiales
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototipado" class="md-nav__link">
+    Prototipado
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones-y-pasos-a-seguir" class="md-nav__link">
+    Conclusiones y pasos a seguir
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pablocastro-s/edit/master/docs/proyecto/PF02 - Proyecto final integrador.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="proyecto-final-integrador">Proyecto final integrador<a class="headerlink" href="#proyecto-final-integrador" title="Permanent link">&para;</a></h1>
+<h2 id="presentacion">Presentación<a class="headerlink" href="#presentacion" title="Permanent link">&para;</a></h2>
+<p>El dispositivo desarrollado es <strong>Benteveo</strong>, una cámara fotográfica analógica estenopeica cuya carcasa se encuentra elaborada a partir de papel reciclado, con la que se busca posibilitar la captura y el registro de distintas ubicaciones en donde esté presente el bioma del Pastizal. De esta forma se busca lograr un <strong>low tech data sensing</strong>, con una fuerte impronta visual, que aporte a sensibilizar sobre la importancia del bioma. </p>
+<p>El dispositivo busca insertarse en un potencial proyecto de colaboración y registro abierto, comunitario y distribuido/distribuible. Así, se pueden lograr fotografías analógicas que den cuenta de la realidad de los pastizales de Uruguay, en el marco de estrategias de conservación de los pastizales, dado que su existencia se vé amenazada por las industrias forestales y papeleras en Uruguay. De esta forma, se apunta a obtener datos en forma de imágenes visuales que, con su potencial artístico-expresivo sensibilicen y hagan visible nuestro principal bioma.  </p>
+<p>La propuesta busca que sea abierta a actores interesados de la comunidad y fácilmente reproducible, por lo que al  estar basado en un modelo 3D paramétrico, es posible modificarlo o elaborar adaptaciones.  </p>
+<p>Los interesados a involucrarse pueden ser ciudadanos involucrados, científicos, artistas, fotógrafos, makers, diseñadores, o cualquier persona del territorio nacional, que posea interés por la conservación, la sostenibilidad, la fotografía o curiosidad.</p>
+<p>Si bien la complejidad del dispositivo puede inicialmente resultar alta, se pretende que de la mano de actores expertos se pueda acercar a las personas a su uso y realización, tanto en relación al dispositivo, como a la fotografía estenopeica. Asimismo, se plantea la distribución de dispositivos ya prontos para poder abarcar una mayor extensión del territorio nacional a <em>sensear</em> a través de la fotografía de los paisajes de los pastizales, su flora y fauna. </p>
+<p>A nivel de funcionamiento el dispositivo cuenta con un estenopo que es abierto al rotar su tapa, de esta forma se deja pasar luz que impacta sobre la película cargada en la cámara de 120mm. La duración de la apertura dependerá de la película utilizada, las condiciones lumínicas, entre otros factores. Una vez tomada la fotografía, manualmente se hace avanzar la película hasta el cuadro siguiente, tomando como referencia las guías que la película incorpora en su parte posterior, que puede ser observado por el visor de película ubicado en la parte posterior, dejando pronto el dispositivo para una posterior captura fotográfica.</p>
+<h2 id="desarrollo-de-la-idea">Desarrollo de la idea<a class="headerlink" href="#desarrollo-de-la-idea" title="Permanent link">&para;</a></h2>
+<p>Todo comenzó con la pregunta <em>¿Sería posible reutilizar y recircular papel para el desarrollo de productos deseables, viables y factibles?</em>, la cual parte de un interés personal por el material y por la influencia del contexto actual en torno al papel, extracción materia prima en Uruguay y su posterior producción, que permitió.</p>
+<p>A partir de ahí se realizó un relevamiento de la temática, llegando a conocer el <strong>impacto ambiental</strong> que tiene la producción de papel o pulpa de celulosa en Uruguay: Por un lado <strong>se reemplaza el pastizal nativo por árboles destinados a la industria forestal</strong>, que afectan el bioma nativo negativamente <strong>eliminando en cantidad de superficie y reduciendo su calidad, así como afectando la calidad del ambiente</strong>. Por otra parte, la industria de producción de celulosa que utiliza los árboles mencionados anteriormente para producir pulpa, tienen también su impacto ambiental, ya sea por el consumo de recursos, como por la gestión de químicos utilizados y su vertidos a flujos de agua . </p>
+<p>De esta forma, se llegó a conocer que la producción de papel o pulpa de celulosa tiene una gran repercusión sobre el tipo de bioma principal de Uruguay: el pastizal. Las lógicas productivas actuales lo reducen empobrecen, por lo que distintos expertos plantean la existencia de dos estrategias para su cuidado: la recuperación (de gran complejidad y escasa efectividad por el momento) y la <strong>conservación</strong>. </p>
+<p>A partir de esa noción, surgió la idea de poder desarrollar algún dispositivo destinado a obtener información para la aportar a conservación de los pastizales, pudiendo ser la medición o el registro de valores del entorno. Sin embargo, ante la existencia de equipamiento específico y profesional para ese fin, se optó por seguir otro camino: ¿que tal si se realiza una <em>captura</em> de los pastizales, pero desde una mirada más expresiva o visual, en pos de sensibilizar a la población sobre el pastizal, ese bioma característico que es invisible y va desapareciendo?. </p>
+<p>Así surgió la idea de desarrollar un dispositivo low tech de data sensing, donde los datos obtenidos sean de orden visual y abiertos: una cámara fotográfica estenopeica elaborada en papel.</p>
+<p>Con la materialidad seleccionada, se busca poner en valor el material recuperado (que a su vez motivó la pregunta inicial), así como de cierta forma apuntar a, de cierta forma, <em>cerrar un círculo</em> entre el origen de la materia prima y el impacto que ocasiona y su recuperación para el desarrollo de un dispositivo destinado a sensibilizar sobre los pastizales. </p>
+<h2 id="referencias-y-antecedentes">Referencias y antecedentes<a class="headerlink" href="#referencias-y-antecedentes" title="Permanent link">&para;</a></h2>
+<p>El proceso de diseño incorpora la experimentación e indagación de antecedentes en el desarrollo del material en base a papel, así como también en el desarrollo de cámaras estenopeicas y tecnologías similares. </p>
+<p>A nivel del material realizado en base a papel, se pueden descargar iniciativas como <a href="https://www.instagram.com/postpaperstudio/">Post Paper Studio</a>, el proyecto <a href="https://evagaribaldi.com/Paper-Bioplastic">Paper + Bioplastic de Eva Garibaldi</a>, mobiliario de papel de <a href="https://katietreggiden.com/craft/studio-woojai-turns-waste-paper-into-bricks-and-furniture-circular-by-design-design-milk/">Studio Woojai</a>, el <a href="https://www.instructables.com/Recycle-Cardboard-Into-Anything-With-3D-Printing/">desarrollo de material en basea cartón reciclado y moldes impresos en 3D de XYZAidan</a>, el <a href="https://www.youtube.com/watch?v=T0GGPoke4Kc&amp;t=7s">desarrollo de prototipos de packaging de pulpa de papel</a>, el <a href="https://www.debbiewijskamp.com/">trabajo de Debbie Wijskamp en base a pulpa de papel</a> y el <a href="https://www.takeo.co.jp/en/design/006/">desarrollo de mobiliario en papel de Takeo</a>. </p>
+<p>Por otra parte, existen diversos antecedentes a nivel de cámaras fotográficas estenopeicas, por lo general, desarrolladas bajo lógicas DIY y por comunidades de aficionados, que abarcan soluciones de diversos grados de complejidad. Es pertinente destacar a algunas desarrolladas en base a herramientas de fabricación digital, como es el caso de <a href="https://www.instructables.com/Easy-35-3D-Printed-Pinhole-Camera/">Easy 35 3D Printed Pinhole Camera</a>, <a href="https://www.35mmc.com/14/07/2021/developing-a-modular-pinhole-camera-by-nils-aksnes/">Modular Pinhole Camera de Nils Aksnes</a>, <a href="https://doragoodman.com/goodlab-project/scura-pinhole-camera/">Scura</a>, <a href="https://www.thingiverse.com/thing:495230">terraPin</a>. </p>
+<p>También es pertinente destacar la existencia de un caso de una cámara estenopeica, <a href="https://www.pinstacamera.com/">Pinsta</a> desarrollada como producto comercial, que utiliza papel fotosensible y permite un revelado casi instantáneo, y  <a href="https://www.experimenta.es/noticias/industrial/viddy-camara-diy-carton/">la cámara de cartón Viddy</a>. </p>
+<h2 id="benteveo"><strong>Benteveo</strong><a class="headerlink" href="#benteveo" title="Permanent link">&para;</a></h2>
+<p>El nombre del proyecto se debe al pájaro homónimo, que habita los pastizales de Uruguay y la región; es tomado como símbolo por su relevancia, así como por su similitud con los términos <em>bien te veo</em>, que se relaciona con una de las intenciones del proyecto: ver bien y detenidamente los pastizales fotografiados, para sensibilizar y revalorizar un bioma que se da por sentado.</p>
+<p>La propuesta presentada incluye el diseño del dispositivo de captura <strong>Benteveo</strong> a nivel de prototipo, así como el sistema de moldes y prensas para materializar varios de sus componentes.</p>
+<p>El diseño de <strong>Benteveo</strong> implicó seguir dos caminos en paralelo, aunque con varios puntos de contacto: uno para el desarrollo del <strong>material basado en papel reciclado</strong> y <strong>desarrollo de la cámara estenopeica</strong>.</p>
+<h3 id="material-en-base-a-papel">Material en base a papel<a class="headerlink" href="#material-en-base-a-papel" title="Permanent link">&para;</a></h3>
+<p>Como punto de partida para el desarrollo del material se partió por un análisis de antecedentes de materiales que tuvieran al papel reciclado o a la fibra de celulosa como base. Esto permitió establecer una serie de requisitos a la hora de idear y plantear posibles  capacidades para el material:</p>
+<p>Indispensable
+- Desarrollado mayoritariamente en base a papel reciclado
+- No debe permitir el pasaje de luz
+- Debe ser relativamente (en relación al uso) resistente
+- Repetible
+- Reutilizable para generar más material
+- Simple</p>
+<p>Deseable
+- Ser mecanizable
+- Fácilmente desmoldable
+- Poder lograr un buen nivel de detalle</p>
+<p>Optativo
+- Potencial para incorporar color
+- Almacenable para su uso posterior</p>
+<p>A partir de esos requisitos delineados, se plantea el desarrollo de las distintas pruebas de material, llegando a desarrollar uno que es conformado por pulpa de papel (escurrida) obtenida de papel en desuso y carbonato cálcico en un ratio 5:1 respectivamente. El material resultante  también puede re utilizarse e incorporarse en la producción de más material, acompañado de los materiales mencionados anteriormente.</p>
+<h4 id="exploracion-01">Exploracion 01<a class="headerlink" href="#exploracion-01" title="Permanent link">&para;</a></h4>
+<p>En este caso se parte de los fundamentos del reciclaje de papel para la elaboración de hojas de papel, para adaptarlo a un material volumétrico en lugar de laminar. Se opta por fraccionar en pequeños fragmentos y sumergirlos en agua por varios días para facilitar su procesamiento. Posteriormente, se procesan para obtener una pasta con la ayuda de un batidor de pintura montado en un taladro. De esta forma, se busca <em>romper</em> las fibras del papel, pero resultando estas en un mayor tamaño respecto a otros métodos que utilizan cuchillas (por ejemplo, licuadoras o procesadoras) ya que esto le da una mayor resistencia, lo que es particularmente útil para hacer láminas de papel reciclado en forma de hojas. El material es secado al natural.</p>
+<p>Como resultado de esta prueba se obtuvieron piezas sólidas conformadas únicamente con papel. Si bien resultan aparentemente resistentes, al no tener algún aditivo que contribuya a mejorar sus propiedades y características, solo basta hidratar la pieza para que pierda su conformación. Más allá de esto se comprueba que el material presenta plasticidad, en tanto mantiene las deformaciones producto de su manipulación cuando se encuentra hidratado.</p>
+<h4 id="exploracion-02">Exploracion 02<a class="headerlink" href="#exploracion-02" title="Permanent link">&para;</a></h4>
+<p>Para la segunda exploración se opta por cambiar distintas variantes. En primer lugar, el método de procesado será a través de cuchillas, a través de una licuadora, en búsqueda de un resultado más homogéneo y uniforme, así como más fácilmente moldeable. Por otra parte, se evalúa su moldeado en distintos contenedores y, a diferencia de la exploración anterior, algunas muestras se mantendrán en el molde durante su secado. Finalmente, la mezcla desarrollada incorporará un aditivo a base de arroz para mejorar las propiedades mecánicas del material resultante.</p>
+<p>Se comienza por el procesamiento manual del papel, fragmentándose en pequeños trozos que son hidratados por aproximadamente 24 horas, luego se procesan con una licuadora, donde se le agrega la pasta de arroz; de esta forma el adhesivo es incorporado a la pulpa de papel resultante. Antes de colocar el material resultante en moldes, se lo escurre utilizando un paño de tela como colador, para extraer gran parte de la cantidad de agua.
+El resultado obtenido son discos o prismas del material a base de papel con adhesivo de arroz a modo de aglutinante. Su apariencia es de una superficie levemente rugosa al tacto, capaz de copiar texturas o bajorrelieves y su color ondula entre el blanco y el gris claro.
+Algo que se observa es que las piezas que fueron retiradas del molde antes de lograr un secado completo (o casi) presentan deformaciones. Este aspecto será relevante para considerar al momento de desarrollar el prototipo, pero se confirma en una siguiente exploración.</p>
+<h4 id="exploracion-03">Exploracion 03<a class="headerlink" href="#exploracion-03" title="Permanent link">&para;</a></h4>
+<p>Se desarrolla una tercera exploración donde, bajo la recomendación surgida de las tutorías del Proyecto Final Integrador, se incorpora como material aglomerante o aditivo carbonato cálcico. Este material de origen natural, presente en rocas, en la estructuras de moluscos, corales o la cáscara de huevos, brindará al material en base de papel de una mayor resistencia que el adhesivo en base a arroz, lo que sería particularmente útil al momento de desmoldarlo.
+Para esta exploración, se sigue un procedimiento similar que en la exploración anterior, pero sin el adhesivo de arroz e incorporando el carbonato cálcico. Con el fin de poder estimar las cantidades y sistematizar la elaboración de los materiales, se realizan pruebas con dos ratios de la relación entre la cantidad de pulpa de papel escurrida y el carbonato de calcio: uno 10:1 y otro 2:1 respectivamente. Asimismo, ambas permanecerán en el molde hasta haber secado prácticamente por completo; esto permite comprobar la idea de que el material sufre grandes deformaciones al secarse sin un molde y obtener un estimado de la contracción del material una vez seco.</p>
+<p>Las muestras obtenidas tienen un color mucho más blanquecino que aquellas de la Exploración 2 y una textura más uniforme, tanto al tacto como a la vista. Se observa que de cada lado la contracción producto de la pérdida de agua en el secado es de aproximadamente 8mm. Luego de observar ambas muestras, se entiende conveniente ir por el camino de seguir un ratio papel - carbonato cálcico intermedio entre los dos utilizados. </p>
+<h4 id="conclusiones">Conclusiones<a class="headerlink" href="#conclusiones" title="Permanent link">&para;</a></h4>
+<p>A partir de las exploraciones materiales presentadas, se logra desarrollar un material a base de papel recuperado como elemento principal, denominado de ahora en más <em>papecal</em>, dado los materiales que lo componen. Este incorpora carbonato cálcico, en una relación 5:1 respecto a la cantidad de papel. La cantidad de agua se entiende como una variante no fija, es la necesaria para poder procesar el papel en la licuadora y para disolver de forma homogénea el carbonato de calcio; no afecta al resultado final de forma significativa —más allá de los tiempos de secado—pues es escurrida del material antes de ser moldeado y prensado.</p>
+<h3 id="desarrollo-de-la-camara-estenopeica">Desarrollo de la cámara estenopeica<a class="headerlink" href="#desarrollo-de-la-camara-estenopeica" title="Permanent link">&para;</a></h3>
+<p>Antes de avanzar conviene abordar la pregunta <strong>¿Qué es una cámara estenopeica?</strong>. Se trata de de un tipo de cámara fotográfica que carece de lentes y en su lugar captura una imágen a través de un estenopo, que es un elemento con un orificio pequeño que permite el ingreso de luz para capturar la imágen en un medio fotosensible, bajo el principio de <em>camera obscura</em>.
+La camera obscura es un fenómeno por el cual cuando los rayos de luz pasan por un orificio pequeño a un espacio oscuro se obtiene como resultado al dar con un plano una imagen invertida en el sentido vertical.</p>
+<p>Para la conceptualización y planificación del dispositivo se realizó en primer lugar, y atendiendo a los elementos mínimos que la cámara debería contener, se comenzó por elaborar exploraciones conceptuales a nivel de boceto, al que posteriormente le siguió el modelado 3D en el software Fusion, en el cual se definieron distintos parámetros a medida que se modelaba la cámara en función de los componentes y dimensiones a alcanzar, lo que permite poder realizar ajustes o posteriores iteraciones de forma eficiente y sencilla.</p>
+<p>Inicialmente se planteaba que la cámara estuviera desarrollada para ser utilizada con película de 35mm, sin embargo luego de recibir feedback e indagar más al respecto, se decidió que el formato a utilizar fuera 120mm, es decir formato medio. Esto permitiría lograr fotografías de mayor calidad y definición. Esta decisión llevó a repensar los «sistemas» que conformaría a la cámara en base al funcionamiento buscado, dada la lógica que este tipo de película conlleva: </p>
+<p>En primer lugar, se encuentra el estenopo. Este debe ser fijado a la cámara y tambièn permitir ser rápidamente cubierto y descubierto para lograr la captura de la imagen, al permitir el ingreso de luz a través del estenopo durante un tiempo determinado (a).</p>
+<p>En segundo lugar, es necesario que la cámara pueda alojar dos carretes, uno con película nueva y uno vacío, que a medida que se van tomando fotografías y la película es avanzada por el usuario, recoge el film ya expuesto (b).</p>
+<p>En tercer lugar se encuentra el mecanismo para hacer avanzar la película de forma manual &copy;.</p>
+<p>Por otra parte, el film de 124 posee en su cara posterior indicadores numéricos del avance de la película, por este motivo la cámara dene incorporar en su cara posterior un visor para permitir llevar la cuenta de las fotografías tomadas (d).</p>
+<p>Finalmente, el sistema que permite la apertura y el cierre del dispositivo para asegurar la cara posterior del dispositivo, permitiendo que sea removida para cambiar la película (e). </p>
+<p>Dada la elección de la película, se opta por hacer que la cámara trabaje en el formato denominado <strong>6x6</strong>, con una relación de ratio 1:1, pues permite hacer un número relativamente alto de capturas (entre 12 y 13), así como también permite la captura de un área de forma equilibrada, dado que no hay una dimensión (alto o largo) que predomine en la fotografía a realizar.</p>
+<p>La carcasa del dispositivo es elaborada a partir de un material conformado por papel recuperado y carbonato cálcico, denominado por razones de practicidad como <em>papecal</em>, que fue desarrollado luego de diversas iteraciones. Su apariencia rugosa y levemente irregular destaca a nivel visual y táctil. Esta es el elemento que posibilita que el fenomeno de la <em>camera obscura</em> tenga lugar en el dispositivo.</p>
+<h4 id="aspectos-formales">Aspectos formales<a class="headerlink" href="#aspectos-formales" title="Permanent link">&para;</a></h4>
+<p>A nivel formal, el dispositivo maneja un lenguaje similar al de las cámaras de formato medio tradicionales. Los elementos ornamentales se limitan a bajorrelieves en la cara frontal del dispositivo.
+El exterior de la cámara presenta una apariencia de carácter prismático redondeado, que a priori parece ser rectangular, pero que por el contrario en sus distintas caras presentan conicidades (drafts) en relación a la cara frontal para facilitar su desmolde.
+Los elementos que ofician de affordance de la cámara, impresos en PLA negro, son de caracter redondeado, sin aristas vivas, para aparentar una mayor suavidad y dotar al dispositivo de un caracter amigable.</p>
+<h4 id="aspectos-tecnologicos-y-materiales">Aspectos tecnológicos y materiales<a class="headerlink" href="#aspectos-tecnologicos-y-materiales" title="Permanent link">&para;</a></h4>
+<p>El dispositivo está conformado por el material denominado como <em>papecal</em> para las carcasas, y por PLA negro para los componentes internos y mecánicos. Estos elementos logran un CMF contrastante a nivel de color, textura y brillo. Los únicos elementos que no son de esos materiales son el estenopo, que es de aluminio recuperado de latas de bebidas, y los insumos (tornillos, tuercas e insertos roscados), que son de metal.</p>
+<p>Una decisión relevante a la hora de proyectar el dispositivo fue la decisión de hacer que todos sus elementos sean desmontables, haciendo que no se utilicen adhesivos. De esta forma, se busca hacer que el producto sea reparable y sus componentes puedan ser reemplazados en caso de rotura y adecuadamente desmontables para una posterior recirculación. Es por este motivo, que se vale de uniones mecánicas removibles (tornillos y tuercas), uniones semifijas (este es el caso de los insumos mecánicos que son fijados a piezas de PLA con la utilización de calor, como es el caso de insertos roscados a la estructura interna o tornillos a <em>arandelas</em> que facilitan su manipulación para el desenrosque ), piezas desmontables y uniones tipo snap-fit.</p>
+<p>El diseño del dispositivo abarca tanto procesos aditivos, como sustractivos: tanto los componentes mecánicos y estructurales, como el molde para las piezas de <em>papecal</em> son impresas en 3D mediante tecnologías FDM utilizando PLA (material escogido por su relativo bajo impacto ambiental, disponibilidad casi universal, resistencia acorde al funcionamiento previsto y bajo costo en comparación con otros filamentos), por otra parte el visor del número de la película (en acrílico) y la matriz que permite la elaboración del estenopo (en MDF) son fabricadas a través de corte láser.</p>
+<p>Para las piezas impresas en PLA, dado que se vinculan por uniones con encastre o roscas, se utilizó unas tolerancias de 0.25mm. </p>
+<p>Los componentes elaborados a partir del material en base a papel recuperado, denominado <em>papecal</em>, son producidos mediante el moldeo del material en su estado húmedo. Los moldes desarrollados para este fin incluyen una conicidad de 2º en sus caras perpendiculares al fondo, formando parte de la morfología del dispositivo. De esta forma, se facilita el desmolde de las piezas. Asimismo, incorpora en el largo y espesor de las piezas un offset de 8mm que busca compensar la distancia que contrae el material luego de su secado. Dado que el tamaño máximo del área de impresión del la impresora 3D era de aproximadamente 23,5 cm tanto en ancho como largo y cerca de 24 en la altura, algunas de las piezas de los moldes fueron divididas para caber dentro de los límites. Por otra parte, se incorporaron drafts de 45º para evitar que las paredes laterales y la cara inferior deban incorporar soportes, reduciendo tiempos y costos de esta forma.</p>
+<p>La matriz elaborada para permitir la elaboración del estenopo tiene como finalidad marcar la lámina de aluminio para poder obtener un <em>disco</em> y poder realizar la perforación que permitirá el pasaje de luz de forma centrada, mediante el uso de un alfiler fino.</p>
+<h3 id="prototipado">Prototipado<a class="headerlink" href="#prototipado" title="Permanent link">&para;</a></h3>
+<p>Para el desarrollo del prototipo, que tuvo lugar una vez definido el diseño del dispositivo y sus moldes y matrices, fue necesario producir la mayoría de las piezas, tanto las impresas como las moldeadas, siendo la única excepción los insumos utilizados para las uniones mecánicas, es decir tornillos, tuercas e insertos roscados. </p>
+<p>Para las piezas del molde y los componentes y mecanismos de funcionamiento de la cámara, se realizaron impresiones en 3D a partir del impresos en una impresora Creality Ender 3 S1 Pro con Grilon PLA 850 de color negro, el estenopo fue logrado a traves del «estampado», perforado y recorte de su forma en una lámina de aluminio recuperado, y la pieza correspondiente al visor de avance de la película es lograda en acrílico rojo mediante corte láser. En el caso de las piezas impresas, los parámetros para su impresión fueron las estándar ofrecidas por el slicer con soportes tipo árbol, y salvo en las piezas que extendían el tamaño de la cama de impresión, se imprimieron de forma perpendicular al sentido de la fuerza que recibirán.
+Mientras tanto, aquellas cortadas por láser se desconocen los parámetros utilizados pues son los que consideró el proveedor.</p>
+<p>Una vez obtenidas las piezas correspondiente al molde, se procedió a ensamblarlo mediante la utilización de tornillo máquina de cabeza redonda tipo philips M8 y tuercas correspondientes a ellos, para así dar lugar a que se coloque en este la mezcla de <em>Papecal</em>, desarrollada según la receta presentada anteriormente. Algo a destacar es que para la fabricación de la pieza correspondiente a la tapa posterior del dispositivo se incorporó una prueba realizada con el material anteriormente, como parte de la mezcla de papel. De esta forma, se comprueba que el material puede ser fácilmente recirculado para generar nuevas piezas.</p>
+<p>El modelo fue realizado colocando el material en el molde, asegurándose que en zonas con rebajes a obtener en la pieza hubiera material y luego prensándolo con la pieza correspondiente al interior, donde quedaría la pieza principal para secar. El prensado de la pieza fue logrado, sin embargo no se pudo llegar a la profundidad deseada, pues no se contaba con algún tipo de prensa que auxiliara en esta tarea. Asimismo, al recibir fuerza en el sentido de las paredes del molde de forma lateral, la pieza inferior, correspondiente al frente de la cámara comenzó a separarse, dado que la recibió en el sentido de las capas. A pesar de esto, se pudo lograr la pieza deseada, aunque sin tanta precisión en los rebajes <em>estéticos</em> de la cámara, con bordes desprolijos en el canto y con un mayor espesor que el deseado en esa zona. El interior de la carcasa principal mantuvo las dimensiones deseadas, dado que al secar la pieza en un <em>contramolde</em>, la contracción producto del secado tuvo lugar en las dimensiones exteriores de la pieza, como fue planificado. </p>
+<p>Por otra parte, para fabricar el estenopo, una vez armada la prensa, se procedió a colocar un recorte de aluminio obtenido de una lata de refresco y se comenzó a fijar en el lugar por medio de tornillos máquina cabeza redonda M3. Una vez fijada en el lugar, con la ayuda de un martillo, se presiona para que tome la forma de un rebaje cilíndrico, que luego es perforado con un alfiler, lijado y recortado.</p>
+<p>Para el armado del dispositivo se procedió a colocar los insertos roscados en la pieza correspondiente al soporte interior de la cámara, colocándolos con un soldador de estaño que lo calienta y por conducción ablanda el PLA en la zona a colocarlo y con una leve presión es colocada en la ranura correspondiente. Asimismo, se sigue este procedimiento con dos tornillos allen cabeza cilindrica de acero negro M5 x 0.8, de 30mm de largo, que reciben en sus cabeza dos piezas impresas de PLA que permitiran fijar la tapa posterior a la estructura interna de la cámara. </p>
+<p>Posteriormente se posiciona el estenopo de aluminio dentro de las piezas que lo fijan en su lugar mediante una rosca y una arandela que lo presiona y fija en su lugar de forma recta.</p>
+<p>Luego se coloca la pieza de la estructura en la carcasa de la cámara y se hace coincidir a las perforaciones de las caras inferiores y superiores con las ranuras de la carcasa, que encastran sin necesidad de insumos. Luego se enroscan los elementos de fijación de los carretes y la arandela, palanca y el elemento de sujeción de este, que configuran el subsistema de avance de la película.</p>
+<p>La pieza de acrílico rojo, correspondiente al visor del avance de la película se coloca en la pieza destinada a ese fin, al que luego se le agrega la pestaña que permite cubrir el visor o descubrirlo. El conjunto resultante es colocado en la ranura de la tapa posterior y fijado con la arandela destinada a ese fin.</p>
+<p>La estructura de la tapa es fijada a la tapa con tornillos y tuercas M3 y se hacen dos perforaciones pasantes para las piezas conformadas por los tornillos allen cabeza cilindrica de acero negro M5. Una vez hecho esto, la cámara puede ser cerrada.</p>
+<h2 id="conclusiones-y-pasos-a-seguir">Conclusiones y pasos a seguir<a class="headerlink" href="#conclusiones-y-pasos-a-seguir" title="Permanent link">&para;</a></h2>
+<p>Como punto de partida conviene retomar la pregunta que sirvió de disparador para este proyecto: <em>Dado el contexto actual en torno al papel, extracción de materia prima en Uruguay y su posterior producción y consumo, ¿sería posible reutilizar y recircular papel para el desarrollo de productos deseables, viables y factibles?</em>. Habiendo atravesado el presente proyecto final integrador se entiende que se puede aventurar a responder <em>Es posible que sí</em>. </p>
+<p>Sin embargo, el proyecto fue derivando en algo más que el desarrollo de un producto en particular para su comercialización; la pregunta disparadora desembocó en un abordaje centrado en las distintas implicancias e impactos que tiene la producción de papel en Uruguay. Por ese motivo es que se desarrolló  <strong>Benteveo</strong> , dispositivo que está conformado por papel, cuya materialidad apunta, en conjunto a su funcionalidad, a sensibilizar sobre el impacto de la industria papelera y forestal, así como evitar que sea naturalizada la forma en que afectan a los pastizales de Uruguay.</p>
+<p>Además, para llevar adelante el cometido que el proyecto propone sería necesario vincular el dispositivo con individuos o agrupaciones que propicien el resultado buscado: capturar los pastizales locales mediante fotografías estenopeicas. Para esto sería necesario contar con varias cámaras para ser entregadas o desarrollar talleres para que se elaboren y luego en salidas de campo registrar mediante ese <em>low tech data sensing</em> y posteriormente difundir o exponer el resultado. </p>
+<p>Asimismo, <strong>Benteveo</strong> nace proyectado bajo el paradigma de diseño abierto, por lo que al hacer público los archivos, se da lugar a la generación de reproducciones, mejoras e iteraciones por parte de terceros, lo que se ve facilitado por la incorporación de modelado paramétrico. De esta forma se busca facilitar la distribución del dispositivo, en tanto se brindan los medios para replicarlo. Sin embargo, para que esto sea más accesible sería necesario a futuro generar material explicativo y de referencia, para así lograr un acercamiento más amigable para los usuarios.</p>
+<p>Sobre los aspectos tecnológicos del proyecto se concluye que el material desarrollado en base a papel recuperado presenta potencial para seguir siendo investigado y experimentado, tanto en relación a este proyecto, así como otros potenciales usos y cualidades expresivas, como por ejemplo la integración de color. Por otra parte, se observa que se subestimó la fuerza que recibirán los moldes, lo que tuvo un impacto directo en la rotura de aquellas piezas impresas de forma vertical para lograr caber dentro de las dimensiones de la impresora utilizada, ya que recibieron fuerza en el sentido de las capas impresas. Una posible solución a esto radica en dividir las piezas para luego imprimirlas en el sentido perpendicular a la fuerza que recibirán, así como reducir el tamaño de la pieza.
+Continuando en esa dirección, se cree que sería beneficioso en una posterior iteración del dispositivo trabajar en su simplificación, reduciendo la cantidad y complejidad de los componentes, para así potenciar su replicabilidad y ser más eficiente en los recursos utilizados.</p>
+<p>Un aspecto a continuar del proyecto, que por razones de tiempo no se pudo implementar, es la realización de salidas de campo a pastizales locales para comenzar con el registro fotográfico de estos.</p>
+<p>Otro elemento que se podría incorporar al proyecto es el uso de sensores que permitan tomar una foto del suelo en paralelo a la fotografía del pastizal, para lograr mapear el estado y calidad de suelo de los pastizales, mediante la vinculación con sensores NPK, que miden sus niveles de nitrógeno, potasio y fósforo, aspectos clave para determinar su calidad. Esta información, tanto visual (fotografía) como numérica (datos obtenidos del suelo) podrían luego ser volcadas en una plataforma digital para permitir el acceso y difusión.</p>
+<p>A nivel personal, creo que el proyecto fue igualmente desafiante e interesante, y presenta un gran potencial para ser continuado, así como la necesidad de ser abierto a distintos actores e individuos de la sociedad.</p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 18, 2025</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyleft 2024 Pablo Castro - GNU Free Documentation License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://instagram.com/" target="_blank" rel="noopener" title="instagram.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://linkedin.com/in/pablo-castro-silva" target="_blank" rel="noopener" title="linkedin.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://pablocastro-s.github.io/pablo-castro/" target="_blank" rel="noopener" title="pablocastro-s.github.io" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.behance.net/PabloCas" target="_blank" rel="noopener" title="www.behance.net" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
