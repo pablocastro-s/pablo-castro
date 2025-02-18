@@ -1,4 +1,4 @@
-# Ideas Iniciales
+# Ideas iniciales
 
 Como resultado del desarrollo de las actividades de los módulos de diseño (MD01 y MD02) e innovación (MI01), se definió como punto de partida para la ideación de la temática del proyecto integrador la siguiente pregunta:
 
