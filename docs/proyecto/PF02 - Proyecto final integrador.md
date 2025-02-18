@@ -79,12 +79,18 @@ Como resultado de esta prueba se obtuvieron piezas sólidas conformadas únicame
 Para la segunda exploración se opta por cambiar distintas variantes. En primer lugar, el método de procesado será a través de cuchillas, a través de una licuadora, en búsqueda de un resultado más homogéneo y uniforme, así como más fácilmente moldeable. Por otra parte, se evalúa su moldeado en distintos contenedores y, a diferencia de la exploración anterior, algunas muestras se mantendrán en el molde durante su secado. Finalmente, la mezcla desarrollada incorporará un aditivo a base de arroz para mejorar las propiedades mecánicas del material resultante.
 
 Se comienza por el procesamiento manual del papel, fragmentándose en pequeños trozos que son hidratados por aproximadamente 24 horas, luego se procesan con una licuadora, donde se le agrega la pasta de arroz; de esta forma el adhesivo es incorporado a la pulpa de papel resultante. Antes de colocar el material resultante en moldes, se lo escurre utilizando un paño de tela como colador, para extraer gran parte de la cantidad de agua.
+
+![alt text](<Fotos prueba arroz (2).jpg>) ![alt text](<Fotos prueba arroz (4).jpg>) ![alt text](<Fotos prueba arroz (11).jpg>) ![alt text](<Fotos prueba arroz (17).jpg>)
+
 El resultado obtenido son discos o prismas del material a base de papel con adhesivo de arroz a modo de aglutinante. Su apariencia es de una superficie levemente rugosa al tacto, capaz de copiar texturas o bajorrelieves y su color ondula entre el blanco y el gris claro.
 Algo que se observa es que las piezas que fueron retiradas del molde antes de lograr un secado completo (o casi) presentan deformaciones. Este aspecto será relevante para considerar al momento de desarrollar el prototipo, pero se confirma en una siguiente exploración.
 
 #### Exploracion 03
 Se desarrolla una tercera exploración donde, bajo la recomendación surgida de las tutorías del Proyecto Final Integrador, se incorpora como material aglomerante o aditivo carbonato cálcico. Este material de origen natural, presente en rocas, en la estructuras de moluscos, corales o la cáscara de huevos, brindará al material en base de papel de una mayor resistencia que el adhesivo en base a arroz, lo que sería particularmente útil al momento de desmoldarlo.
 Para esta exploración, se sigue un procedimiento similar que en la exploración anterior, pero sin el adhesivo de arroz e incorporando el carbonato cálcico. Con el fin de poder estimar las cantidades y sistematizar la elaboración de los materiales, se realizan pruebas con dos ratios de la relación entre la cantidad de pulpa de papel escurrida y el carbonato de calcio: uno 10:1 y otro 2:1 respectivamente. Asimismo, ambas permanecerán en el molde hasta haber secado prácticamente por completo; esto permite comprobar la idea de que el material sufre grandes deformaciones al secarse sin un molde y obtener un estimado de la contracción del material una vez seco.
+
+![alt text](IMG-20241125-WA0001.jpg)
+![alt text](IMG-20241125-WA0007.jpg)
 
 Las muestras obtenidas tienen un color mucho más blanquecino que aquellas de la Exploración 2 y una textura más uniforme, tanto al tacto como a la vista. Se observa que de cada lado la contracción producto de la pérdida de agua en el secado es de aproximadamente 8mm. Luego de observar ambas muestras, se entiende conveniente ir por el camino de seguir un ratio papel - carbonato cálcico intermedio entre los dos utilizados. 
 
@@ -94,10 +100,12 @@ A partir de las exploraciones materiales presentadas, se logra desarrollar un ma
 
 ### Desarrollo de la cámara estenopeica
 
-Antes de avanzar conviene abordar la pregunta **¿Qué es una cámara estenopeica?**. Se trata de de un tipo de cámara fotográfica que carece de lentes y en su lugar captura una imágen a través de un estenopo, que es un elemento con un orificio pequeño que permite el ingreso de luz para capturar la imágen en un medio fotosensible, bajo el principio de _camera obscura_.
+Antes de avanzar conviene abordar la pregunta **¿Qué es una cámara estenopeica**. Se trata de de un tipo de cámara fotográfica que carece de lentes y en su lugar captura una imágen a través de un estenopo, que es un elemento con un orificio pequeño que permite el ingreso de luz para capturar la imágen en un medio fotosensible, bajo el principio de _camera obscura_.
 La camera obscura es un fenómeno por el cual cuando los rayos de luz pasan por un orificio pequeño a un espacio oscuro se obtiene como resultado al dar con un plano una imagen invertida en el sentido vertical.
 
 Para la conceptualización y planificación del dispositivo se realizó en primer lugar, y atendiendo a los elementos mínimos que la cámara debería contener, se comenzó por elaborar exploraciones conceptuales a nivel de boceto, al que posteriormente le siguió el modelado 3D en el software Fusion, en el cual se definieron distintos parámetros a medida que se modelaba la cámara en función de los componentes y dimensiones a alcanzar, lo que permite poder realizar ajustes o posteriores iteraciones de forma eficiente y sencilla.
+
+![alt text](bocetos.jpg)
 
 Inicialmente se planteaba que la cámara estuviera desarrollada para ser utilizada con película de 35mm, sin embargo luego de recibir feedback e indagar más al respecto, se decidió que el formato a utilizar fuera 120mm, es decir formato medio. Esto permitiría lograr fotografías de mayor calidad y definición. Esta decisión llevó a repensar los «sistemas» que conformaría a la cámara en base al funcionamiento buscado, dada la lógica que este tipo de película conlleva: 
 
@@ -136,6 +144,9 @@ Para las piezas impresas en PLA, dado que se vinculan por uniones con encastre o
 Los componentes elaborados a partir del material en base a papel recuperado, denominado _papecal_, son producidos mediante el moldeo del material en su estado húmedo. Los moldes desarrollados para este fin incluyen una conicidad de 2º en sus caras perpendiculares al fondo, formando parte de la morfología del dispositivo. De esta forma, se facilita el desmolde de las piezas. Asimismo, incorpora en el largo y espesor de las piezas un offset de 8mm que busca compensar la distancia que contrae el material luego de su secado. Dado que el tamaño máximo del área de impresión del la impresora 3D era de aproximadamente 23,5 cm tanto en ancho como largo y cerca de 24 en la altura, algunas de las piezas de los moldes fueron divididas para caber dentro de los límites. Por otra parte, se incorporaron drafts de 45º para evitar que las paredes laterales y la cara inferior deban incorporar soportes, reduciendo tiempos y costos de esta forma.
 
 La matriz elaborada para permitir la elaboración del estenopo tiene como finalidad marcar la lámina de aluminio para poder obtener un _disco_ y poder realizar la perforación que permitirá el pasaje de luz de forma centrada, mediante el uso de un alfiler fino.
+![alt text](<Fotos prototipo (21).jpg>)
+
+
 
 ### Prototipado
 
@@ -144,22 +155,65 @@ Para el desarrollo del prototipo, que tuvo lugar una vez definido el diseño del
 Para las piezas del molde y los componentes y mecanismos de funcionamiento de la cámara, se realizaron impresiones en 3D a partir del impresos en una impresora Creality Ender 3 S1 Pro con Grilon PLA 850 de color negro, el estenopo fue logrado a traves del «estampado», perforado y recorte de su forma en una lámina de aluminio recuperado, y la pieza correspondiente al visor de avance de la película es lograda en acrílico rojo mediante corte láser. En el caso de las piezas impresas, los parámetros para su impresión fueron las estándar ofrecidas por el slicer con soportes tipo árbol, y salvo en las piezas que extendían el tamaño de la cama de impresión, se imprimieron de forma perpendicular al sentido de la fuerza que recibirán.
 Mientras tanto, aquellas cortadas por láser se desconocen los parámetros utilizados pues son los que consideró el proveedor.
 
+![alt text](<Fotos prototipo (15).jpg>) ![alt text](<Fotos moldeo (1).jpg>) ![alt text](<Fotos prototipo (13).jpg>) ![alt text](<Fotos prototipo (14).jpg>)
+
+
 Una vez obtenidas las piezas correspondiente al molde, se procedió a ensamblarlo mediante la utilización de tornillo máquina de cabeza redonda tipo philips M8 y tuercas correspondientes a ellos, para así dar lugar a que se coloque en este la mezcla de _Papecal_, desarrollada según la receta presentada anteriormente. Algo a destacar es que para la fabricación de la pieza correspondiente a la tapa posterior del dispositivo se incorporó una prueba realizada con el material anteriormente, como parte de la mezcla de papel. De esta forma, se comprueba que el material puede ser fácilmente recirculado para generar nuevas piezas.
 
 El modelo fue realizado colocando el material en el molde, asegurándose que en zonas con rebajes a obtener en la pieza hubiera material y luego prensándolo con la pieza correspondiente al interior, donde quedaría la pieza principal para secar. El prensado de la pieza fue logrado, sin embargo no se pudo llegar a la profundidad deseada, pues no se contaba con algún tipo de prensa que auxiliara en esta tarea. Asimismo, al recibir fuerza en el sentido de las paredes del molde de forma lateral, la pieza inferior, correspondiente al frente de la cámara comenzó a separarse, dado que la recibió en el sentido de las capas. A pesar de esto, se pudo lograr la pieza deseada, aunque sin tanta precisión en los rebajes _estéticos_ de la cámara, con bordes desprolijos en el canto y con un mayor espesor que el deseado en esa zona. El interior de la carcasa principal mantuvo las dimensiones deseadas, dado que al secar la pieza en un _contramolde_, la contracción producto del secado tuvo lugar en las dimensiones exteriores de la pieza, como fue planificado. 
 
+![alt text](<Fotos prototipo (5).jpg>)
+![alt text](<Fotos prototipo (3).jpg>)
+![alt text](<Fotos prototipo (4).jpg>)
+![alt text](<Fotos prototipo (4)-2.jpg>)![alt text](<Fotos moldeo (14).jpg>)
+![alt text](<Fotos moldeo (11).jpg>)
+![alt text](<Fotos moldeo (32).jpg>)
+![alt text](<Fotos moldeo (34).jpg>)
+![alt text](<Fotos moldeo (35).jpg>)
+![alt text](<Fotos moldeo (37).jpg>) ![alt text](<Fotos moldeo (38).jpg>)
+![alt text](<Fotos prototipo (41).jpg>) ![alt text](<Fotos prototipo (28).jpg>) ![alt text](<Fotos prototipo (29).jpg>) ![alt text](<Fotos prototipo (30).jpg>) ![alt text](<Fotos prototipo (31).jpg>) ![alt text](<Fotos prototipo (36).jpg>) ![alt text](<Fotos prototipo (38).jpg>)
+![alt text](<Fotos prototipo (33).jpg>)
+
+
+
 Por otra parte, para fabricar el estenopo, una vez armada la prensa, se procedió a colocar un recorte de aluminio obtenido de una lata de refresco y se comenzó a fijar en el lugar por medio de tornillos máquina cabeza redonda M3. Una vez fijada en el lugar, con la ayuda de un martillo, se presiona para que tome la forma de un rebaje cilíndrico, que luego es perforado con un alfiler, lijado y recortado.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aZ1s-FwnVqs?si=qwSNSv7GVBnhqT9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+![alt text](<Fotos prototipo (50).jpg>) ![alt text](<Fotos prototipo (27).jpg>) ![alt text](<Fotos prototipo (49).jpg>)
+
+
+
 Para el armado del dispositivo se procedió a colocar los insertos roscados en la pieza correspondiente al soporte interior de la cámara, colocándolos con un soldador de estaño que lo calienta y por conducción ablanda el PLA en la zona a colocarlo y con una leve presión es colocada en la ranura correspondiente. Asimismo, se sigue este procedimiento con dos tornillos allen cabeza cilindrica de acero negro M5 x 0.8, de 30mm de largo, que reciben en sus cabeza dos piezas impresas de PLA que permitiran fijar la tapa posterior a la estructura interna de la cámara. 
+
+![alt text](<Fijacion insertos roscados.jpg>)
+
 
 Posteriormente se posiciona el estenopo de aluminio dentro de las piezas que lo fijan en su lugar mediante una rosca y una arandela que lo presiona y fija en su lugar de forma recta.
 
 Luego se coloca la pieza de la estructura en la carcasa de la cámara y se hace coincidir a las perforaciones de las caras inferiores y superiores con las ranuras de la carcasa, que encastran sin necesidad de insumos. Luego se enroscan los elementos de fijación de los carretes y la arandela, palanca y el elemento de sujeción de este, que configuran el subsistema de avance de la película.
 
+![alt text](<Fotos prototipo (63).jpg>) ![alt text](<Fotos prototipo (65).jpg>) ![alt text](<Fotos prototipo (66).jpg>) ![alt text](<Fotos prototipo (57).jpg>) ![alt text](<Fotos prototipo (61).jpg>) ![alt text](<Fotos prototipo (62).jpg>)
+![alt text](<Fotos prototipo (38)-1.jpg>)
+
+
 La pieza de acrílico rojo, correspondiente al visor del avance de la película se coloca en la pieza destinada a ese fin, al que luego se le agrega la pestaña que permite cubrir el visor o descubrirlo. El conjunto resultante es colocado en la ranura de la tapa posterior y fijado con la arandela destinada a ese fin.
 
 La estructura de la tapa es fijada a la tapa con tornillos y tuercas M3 y se hacen dos perforaciones pasantes para las piezas conformadas por los tornillos allen cabeza cilindrica de acero negro M5. Una vez hecho esto, la cámara puede ser cerrada.
- 
+
+
+## Testeo del dispositivo
+A modo de testeo del funcionamiento del dispositivo se procedió a tomar un rollo de fotografías que, si bien no serían de los pastizales.
+
+Como resultado de eso, se obtienen una serie de fotografías, de las cuales solo 2 de 12 son «visibles». Del resto solamente se puede, en el mejor de los casos, intentar adivinar la fotografía.
+
+Este resultado puede deberse a veladuras —producto del contacto del rollo con luz, ya sea dentro o al querer sacarlo de la cámara— como también, según el profesional encargado del revelado, de una mala tanda de rollos de la marca Ilford modelo delta 100 que produce artefactos no deseados en las fotografías tomadas. 
+
+De igual forma, se puede concluir que el estenopo y la cámara funcionan, aunque debe seguirse experimentando para saber si se trata de un error de diseño, de uso del dispositivo o una tanda de rollos defectuosa.
+
+![alt text](Fotos_Benteveo-10.jpg) ![alt text](Fotos_Benteveo-1.jpg)
+
+
 
 ## Conclusiones y pasos a seguir
 
@@ -171,11 +225,13 @@ Además, para llevar adelante el cometido que el proyecto propone sería necesar
 
 Asimismo, **Benteveo** nace proyectado bajo el paradigma de diseño abierto, por lo que al hacer público los archivos, se da lugar a la generación de reproducciones, mejoras e iteraciones por parte de terceros, lo que se ve facilitado por la incorporación de modelado paramétrico. De esta forma se busca facilitar la distribución del dispositivo, en tanto se brindan los medios para replicarlo. Sin embargo, para que esto sea más accesible sería necesario a futuro generar material explicativo y de referencia, para así lograr un acercamiento más amigable para los usuarios.
 
-Sobre los aspectos tecnológicos del proyecto se concluye que el material desarrollado en base a papel recuperado presenta potencial para seguir siendo investigado y experimentado, tanto en relación a este proyecto, así como otros potenciales usos y cualidades expresivas, como por ejemplo la integración de color. Por otra parte, se observa que se subestimó la fuerza que recibirán los moldes, lo que tuvo un impacto directo en la rotura de aquellas piezas impresas de forma vertical para lograr caber dentro de las dimensiones de la impresora utilizada, ya que recibieron fuerza en el sentido de las capas impresas. Una posible solución a esto radica en dividir las piezas para luego imprimirlas en el sentido perpendicular a la fuerza que recibirán, así como reducir el tamaño de la pieza.
+Sobre los aspectos tecnológicos del proyecto se concluye que el material desarrollado en base a papel recuperado presenta potencial para seguir siendo investigado y experimentado, tanto en relación a este proyecto, así como otros potenciales usos y cualidades expresivas, como por ejemplo la integración de color. Por otra parte, se observa que se subestimó la fuerza que recibirán los moldes, lo que tuvo un impacto directo en la rotura de aquellas piezas impresas de forma vertical para lograr caber dentro de las dimensiones de la impresora utilizada, ya que recibieron fuerza en el sentido de las capas impresas. 
+Una posible solución a esto radica en dividir las piezas para luego imprimirlas en el sentido perpendicular a la fuerza que recibirán, así como reducir el tamaño de la pieza.
 Continuando en esa dirección, se cree que sería beneficioso en una posterior iteración del dispositivo trabajar en su simplificación, reduciendo la cantidad y complejidad de los componentes, para así potenciar su replicabilidad y ser más eficiente en los recursos utilizados.
 
-Un aspecto a continuar del proyecto, que por razones de tiempo no se pudo implementar, es la realización de salidas de campo a pastizales locales para comenzar con el registro fotográfico de estos.
+Un aspecto a continuar del proyecto, que por razones de tiempo no se pudo implementar, es la realización de salidas de campo a pastizales locales para comenzar con el registro fotográfico de estos. El testeo realizado de la cámara dio resultados promisorios, aunque es necesario continuar experimentando en el uso del dispositivo. 
 
 Otro elemento que se podría incorporar al proyecto es el uso de sensores que permitan tomar una foto del suelo en paralelo a la fotografía del pastizal, para lograr mapear el estado y calidad de suelo de los pastizales, mediante la vinculación con sensores NPK, que miden sus niveles de nitrógeno, potasio y fósforo, aspectos clave para determinar su calidad. Esta información, tanto visual (fotografía) como numérica (datos obtenidos del suelo) podrían luego ser volcadas en una plataforma digital para permitir el acceso y difusión.
 
 A nivel personal, creo que el proyecto fue igualmente desafiante e interesante, y presenta un gran potencial para ser continuado, así como la necesidad de ser abierto a distintos actores e individuos de la sociedad.
+
