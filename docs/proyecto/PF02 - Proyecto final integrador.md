@@ -28,6 +28,10 @@ Así surgió la idea de desarrollar un dispositivo low tech de data sensing, don
 
 Con la materialidad seleccionada, se busca poner en valor el material recuperado (que a su vez motivó la pregunta inicial), así como de cierta forma apuntar a, de cierta forma, _cerrar un círculo_ entre el origen de la materia prima y el impacto que ocasiona y su recuperación para el desarrollo de un dispositivo destinado a sensibilizar sobre los pastizales. 
 
+![Storyboard de la situación a trabajar y la idea a desarrollar](../images/PF/PF02/Storyboard.png)
+Storyboard de la situación a trabajar y la idea a desarrollar
+
+
 
 ## Referencias y antecedentes
 El proceso de diseño incorpora la experimentación e indagación de antecedentes en el desarrollo del material en base a papel, así como también en el desarrollo de cámaras estenopeicas y tecnologías similares. 
@@ -37,6 +41,8 @@ A nivel del material realizado en base a papel, se pueden descargar iniciativas 
 Por otra parte, existen diversos antecedentes a nivel de cámaras fotográficas estenopeicas, por lo general, desarrolladas bajo lógicas DIY y por comunidades de aficionados, que abarcan soluciones de diversos grados de complejidad. Es pertinente destacar a algunas desarrolladas en base a herramientas de fabricación digital, como es el caso de [Easy 35 3D Printed Pinhole Camera](https://www.instructables.com/Easy-35-3D-Printed-Pinhole-Camera/), [Modular Pinhole Camera de Nils Aksnes](https://www.35mmc.com/14/07/2021/developing-a-modular-pinhole-camera-by-nils-aksnes/), [Scura](https://doragoodman.com/goodlab-project/scura-pinhole-camera/), [terraPin](https://www.thingiverse.com/thing:495230). 
 
 También es pertinente destacar la existencia de un caso de una cámara estenopeica, [Pinsta](https://www.pinstacamera.com/) desarrollada como producto comercial, que utiliza papel fotosensible y permite un revelado casi instantáneo, y  [la cámara de cartón Viddy](https://www.experimenta.es/noticias/industrial/viddy-camara-diy-carton/). 
+
+
 
 
 ##  **Benteveo**
@@ -117,7 +123,10 @@ En tercer lugar se encuentra el mecanismo para hacer avanzar la película de for
 
 Por otra parte, el film de 124 posee en su cara posterior indicadores numéricos del avance de la película, por este motivo la cámara dene incorporar en su cara posterior un visor para permitir llevar la cuenta de las fotografías tomadas (d).
 
-Finalmente, el sistema que permite la apertura y el cierre del dispositivo para asegurar la cara posterior del dispositivo, permitiendo que sea removida para cambiar la película (e). 
+Finalmente, el sistema que permite la apertura y el cierre del dispositivo para asegurar la cara posterior del dispositivo, permitiendo que sea removida para cambiar la película (e).
+
+![alt text](<../images/PF/PF02/Esquema sistemas.png>)
+Sistemas del dispositivo
 
 Dada la elección de la película, se opta por hacer que la cámara trabaje en el formato denominado **6x6**, con una relación de ratio 1:1, pues permite hacer un número relativamente alto de capturas (entre 12 y 13), así como también permite la captura de un área de forma equilibrada, dado que no hay una dimensión (alto o largo) que predomine en la fotografía a realizar.
 
