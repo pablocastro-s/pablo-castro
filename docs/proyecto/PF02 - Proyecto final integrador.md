@@ -45,13 +45,22 @@ También es pertinente destacar la existencia de un caso de una cámara estenope
 
 
 
-##  **Benteveo**
+## Benteveo
 El nombre del proyecto se debe al pájaro homónimo, que habita los pastizales de Uruguay y la región; es tomado como símbolo por su relevancia, así como por su similitud con los términos _bien te veo_, que se relaciona con una de las intenciones del proyecto: ver bien y detenidamente los pastizales fotografiados, para sensibilizar y revalorizar un bioma que se da por sentado.
 
 La propuesta presentada incluye el diseño del dispositivo de captura **Benteveo** a nivel de prototipo, así como el sistema de moldes y prensas para materializar varios de sus componentes.
 
 El diseño de **Benteveo** implicó seguir dos caminos en paralelo, aunque con varios puntos de contacto: uno para el desarrollo del **material basado en papel reciclado** y **desarrollo de la cámara estenopeica**.
 
+![alt text](Fotos_Benteveo_Dispositivo-3.jpg)
+
+![alt text](Fotos_Benteveo_Dispositivo-1.jpg)
+
+![alt text](Fotos_Benteveo_Dispositivo-6.jpg)
+
+![alt text](Fotos_Benteveo_Dispositivo-8.jpg)
+
+![alt text](Fotos_Benteveo_Dispositivo-11.jpg)
 
 ### Material en base a papel
 Como punto de partida para el desarrollo del material se partió por un análisis de antecedentes de materiales que tuvieran al papel reciclado o a la fibra de celulosa como base. Esto permitió establecer una serie de requisitos a la hora de idear y plantear posibles  capacidades para el material:
@@ -132,6 +141,7 @@ Dada la elección de la película, se opta por hacer que la cámara trabaje en e
 
 La carcasa del dispositivo es elaborada a partir de un material conformado por papel recuperado y carbonato cálcico, denominado por razones de practicidad como _papecal_, que fue desarrollado luego de diversas iteraciones. Su apariencia rugosa y levemente irregular destaca a nivel visual y táctil. Esta es el elemento que posibilita que el fenomeno de la _camera obscura_ tenga lugar en el dispositivo.
 
+![alt text](<../images/PF/PF02/Artboard 1.png>)
 
 ####  Aspectos formales
 
