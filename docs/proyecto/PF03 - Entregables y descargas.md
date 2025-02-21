@@ -11,8 +11,19 @@
 ![alt text](../images/PF/PF02/Presentacion_Final7.png)
 
 
+
 **Descargar presentación**
+
 [Presentación final-PFI-EFDI-Pablo Castro ](<../archivos linkeados/PFI/Presentacion_Final.pdf>){:download="Presentación final-PFI-EFDI-Pablo Castro.pdf"}
 
 
+
 **Descargar archivos de Benteveo**
+
+[Descargar modelo 3D para Fusion - Proyecto Benteveo- PFI-EFDI-Pablo Castro.f3d](<../archivos linkeados/PFI/Proyecto Benteveo- PFI-EFDI-Pablo Castro.f3d>){:download="Proyecto Benteveo- PFI-EFDI-Pablo Castro.f3d"}
+
+[Descargar DXFs - Archivos corte laser.zip](<../archivos linkeados/PFI/DXFs - Archivos corte laser.zip>){:download="Archivos corte laser.zip"}
+
+[Descargar STLs - Componentes.zip](<../archivos linkeados/PFI/STLs - Componentes.zip>){:download="STLs - Componentes.zip"}
+
+[Descargar STLs - Moldes.zip](<../archivos linkeados/PFI/STLs-Moldes.zip>){:download="STLs-Moldes.zip"}
